@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tablero</title>
+<style>
+*{box-sizing:border-box}
+html,body{height:100%;margin:0}
+body{font:14px/1.4 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:#172b4d;background:linear-gradient(135deg,#0d2b3e,#1e5a5e) fixed;display:flex;flex-direction:column}
+button,input,select,textarea{font:inherit;color:inherit}
+button{cursor:pointer}
+#top{background:#000;color:#fff;display:flex;align-items:center;gap:12px;padding:0 12px;height:44px;flex:none}
+#top b{font-size:16px}
+#q{flex:1;max-width:560px;margin:0 auto;padding:6px 12px;border-radius:4px;border:1px solid #555;background:#1d2125;color:#fff}
+.cr{background:#579dff;color:#082145;border:0;border-radius:4px;padding:6px 12px;font-weight:600}
+#bar{display:flex;align-items:center;gap:6px;padding:10px 12px;background:rgba(0,0,0,.3);color:#fff;flex-wrap:wrap;flex:none}
+#sel{background:transparent;border:0;font-size:18px;font-weight:700;color:#fff;max-width:280px}
+#sel option{color:#172b4d}
+#bar .sp{flex:1}
+.tb{background:rgba(255,255,255,.2);color:#fff;border:0;border-radius:4px;padding:5px 10px;transition:background .15s ease}
+.tb:hover{background:rgba(255,255,255,.32)}
+#board{flex:1;min-height:0;display:flex;gap:10px;align-items:stretch;overflow-x:auto;padding:12px}
+.col{flex:none;width:272px;max-height:100%;display:flex;flex-direction:column;background:#f1f2f4;border-radius:12px;padding:6px 6px 4px}
+.col.over{outline:2px dashed #579dff}
+.col.min{width:48px;align-items:center;padding:8px 0;gap:8px}
+.col.min h2{writing-mode:vertical-rl;margin:0;font-size:14px}
+.ch{display:flex;align-items:center;gap:2px;padding:4px 2px 8px 8px}
+.ch h2{flex:1;margin:0;font-size:14px;font-weight:600;padding:2px 4px;overflow-wrap:anywhere;text-transform:uppercase}
+.n{color:#626f86;font-size:13px;margin-right:4px}
+.x{border:0;background:none;color:#44546f;font-size:16px;line-height:1;padding:4px 6px;border-radius:4px}
+.x:hover{background:rgba(9,30,66,.12)}
+.cards{overflow-y:auto;display:flex;flex-direction:column;gap:8px;padding:2px;min-height:0;flex:1}
+.card{background:#fff;border-radius:8px;box-shadow:0 1px 1px rgba(9,30,66,.25);cursor:pointer;overflow:hidden;flex:none;transition:box-shadow .15s ease,transform .15s ease}
+.card:hover{outline:2px solid #579dff;box-shadow:0 2px 8px rgba(9,30,66,.2);transform:translateY(-1px)}
+.card.dragging{opacity:.4}
+.card .cv{display:block;width:100%;max-height:260px;object-fit:cover}
+.cb{padding:8px 10px}
+.lb{display:flex;gap:4px;margin-bottom:6px}
+.lb i{width:40px;height:8px;border-radius:4px}
+.ct{display:flex;gap:8px;align-items:flex-start}
+.ct span{flex:1;overflow-wrap:anywhere}
+.ok{flex:none;width:16px;height:16px;margin-top:2px;border:2px solid #8590a2;border-radius:50%;background:#fff;padding:0;color:#fff;font-size:10px;line-height:1}
+.ok.on{background:#22a06b;border-color:#22a06b}
+.bd{display:flex;gap:12px;color:#44546f;font-size:12px;margin-top:6px}
+.add{width:100%;margin-top:6px;padding:8px 10px;border:0;border-radius:8px;background:transparent}
+.add:hover{background:rgba(9,30,66,.1)}
+.add:focus{background:#fff;box-shadow:inset 0 0 0 2px #579dff;outline:0}
+.add::placeholder{color:#44546f}
+.addcol{flex:none;width:272px;padding:10px 12px;border:0;border-radius:12px;background:rgba(255,255,255,.28);color:#fff}
+.addcol::placeholder{color:#fff}
+.addcol:focus{background:#fff;color:#172b4d;outline:0}
+#menu{position:fixed;background:#fff;border-radius:8px;box-shadow:0 8px 16px rgba(9,30,66,.4);padding:4px;display:none;z-index:9}
+#menu button{display:block;width:100%;text-align:left;border:0;background:none;padding:6px 14px;border-radius:4px}
+#menu button:hover{background:#f1f2f4}
+#toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%) translateY(20px);background:#172b4d;color:#fff;padding:10px 16px;border-radius:8px;display:flex;align-items:center;gap:12px;box-shadow:0 4px 12px rgba(0,0,0,.3);z-index:99;opacity:0;pointer-events:none;transition:opacity .2s ease,transform .2s ease}
+#toast button{background:#579dff;color:#082145;border:0;border-radius:4px;padding:4px 10px;font-weight:600;cursor:pointer;transition:background .15s ease}
+#toast button:hover{background:#7bb0ff}
+[contenteditable="true"]{outline:2px solid #579dff;background:#fff;text-transform:none}
+:focus-visible{outline:2px solid #579dff;outline-offset:1px}
+[hidden]{display:none!important}
+#home{flex:1;overflow-y:auto;background:#fff}
+.hw{max-width:960px;margin:0 auto;padding:32px 20px}
+.hw h2{margin:0 0 14px;font-size:14px;color:#44546f;text-transform:uppercase}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:12px}
+.tile{position:relative;background:#fff;border-radius:6px;box-shadow:0 1px 3px rgba(9,30,66,.3);overflow:hidden;transition:box-shadow .15s ease,transform .15s ease}
+.open{display:block;width:100%;border:0;background:none;padding:0;text-align:left}
+.th{height:72px}
+.tn{padding:8px 10px;font-size:13px;color:#44546f;text-transform:uppercase}
+.tile:hover{box-shadow:0 0 0 2px #579dff;transform:translateY(-2px)}
+.star{position:absolute;top:8px;right:8px;border:0;border-radius:4px;background:rgba(0,0,0,.28);color:#fff;padding:1px 6px;opacity:0}
+.tile:hover .star,.star.on,.star:focus-visible{opacity:1}
+.star.on{color:#ffd54a}
+.tile.new{background:#f1f2f4;border:0;min-height:105px;color:#44546f}
+dialog{width:min(640px,94vw);max-height:92vh;padding:0;border:0;border-radius:12px;background:#fff;color:#172b4d}
+dialog::backdrop{background:rgba(0,0,0,.6)}
+.mcv{display:block;width:100%;max-height:220px;object-fit:cover}
+.mb{padding:16px 20px 20px;display:flex;flex-direction:column;gap:12px}
+.mt{font-size:20px;font-weight:700;border:0;padding:4px 6px;margin:0 -6px;border-radius:4px;width:100%}
+.mt:focus,.mb textarea:focus,.cit:focus,.cadd:focus{outline:2px solid #579dff}
+.ml{margin:0;color:#626f86;font-size:13px}
+.row{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+.lab{width:44px;height:28px;border:0;border-radius:4px;color:#fff;font-weight:700}
+.mb label,.mb h3{font-weight:600;font-size:13px;margin:0;display:flex;flex-direction:column;gap:4px}
+.mb textarea{border:1px solid #c7d1db;border-radius:6px;padding:8px;resize:vertical}
+.ci{display:flex;gap:8px;align-items:center}
+.cit,.cadd{flex:1;border:1px solid transparent;border-radius:4px;padding:5px 8px}
+.cadd{border-color:#c7d1db}
+.btn{border:0;background:#091e420f;border-radius:4px;padding:6px 12px;transition:background .15s ease}
+.btn:hover{background:#091e4224}
+.btn.del{color:#ae2e24}
+</style>
+</head>
+<body>
+<header id="top"><b>Tablero</b><button class="tb" id="hb">Tableros</button><input id="q" type="search" placeholder="Buscar" aria-label="Buscar"><button class="cr" id="nb">Crear</button></header>
+<div id="bar">
+  <select id="sel" aria-label="Cambiar de tablero"></select>
+  <button class="tb" id="rb">Renombrar</button>
+  <button class="tb" id="db">Eliminar</button>
+  <span class="sp"></span>
+  <button class="tb" id="bgb">Fondo</button>
+  <button class="tb" id="bgx" hidden>Quitar fondo</button>
+  <button class="tb" id="eb">Exportar</button>
+  <button class="tb" id="ib">Importar</button>
+  <input type="file" id="file" accept="application/json" hidden>
+  <input type="file" id="bgf" accept="image/*" hidden>
+</div>
+<section id="home" hidden></section>
+<main id="board"></main>
+<div id="menu"><button data-a="ren">Renombrar</button><button data-a="clr">Vaciar columna</button><button data-a="fix">Fijar columna</button><button data-a="del">Eliminar columna</button></div>
+<div id="toast" hidden></div>
+<dialog id="dlg" aria-label="Tarjeta"></dialog>
+<dialog id="askDlg" aria-label="Entrada de texto">
+  <div class="mb">
+    <h3 id="askTitle" style="margin:0;font-size:16px"></h3>
+    <input class="mt" id="askInput" style="border:1px solid #c7d1db;border-radius:6px" maxlength="60">
+    <div class="row" style="margin-top:12px">
+      <span style="flex:1"></span>
+      <button class="btn" id="askCancel">Cancelar</button>
+      <button class="cr" id="askOk">Aceptar</button>
+    </div>
+  </div>
+</dialog>
+<dialog id="pickDlg" aria-label="Seleccionar">
+  <div class="mb">
+    <h3 id="pickTitle" style="margin:0;font-size:16px"></h3>
+    <div id="pickList" style="display:flex;flex-direction:column;gap:6px;margin-top:12px"></div>
+    <div class="row" style="margin-top:12px">
+      <span style="flex:1"></span>
+      <button class="btn" id="pickCancel">Cancelar</button>
+    </div>
+  </div>
+</dialog>
+<script>
+const K='tablero-v1',VER=1,$=id=>document.getElementById(id);
+const uid=()=>Math.random().toString(36).slice(2,9);
+const esc=s=>(s||'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
+const LC={r:['#f87168','Rojo'],o:['#fca700','Naranja'],y:['#e2b203','Amarillo'],g:['#4bce97','Verde'],b:['#579dff','Azul'],p:['#9f8fef','Morado']};
+function seed(){const id=uid();return{cur:id,boards:[{id,name:'Mi tablero',cols:[
+  {id:uid(),t:'Por hacer',cards:[{id:uid(),t:'Haz clic en esta tarjeta para abrirla',l:['b','g']}]},
+  {id:uid(),t:'En curso',cards:[]},{id:uid(),t:'Hecho',cards:[]}]}]}}
+/* Auto-save a GitHub Gist */
+const GIST_KEY='tablero-gist',TOKEN_KEY='tablero-token';
+let gistId=localStorage.getItem(GIST_KEY),gitToken=localStorage.getItem(TOKEN_KEY);
+
+let S;try{S=JSON.parse(localStorage.getItem(K))}catch(e){}
+if(!S||!Array.isArray(S.boards)||!S.boards.length)S=seed();
+S.version=VER;
+
+/* Cargar desde Gist si existe */
+async function loadFromGist(){
+  if(!gitToken||!gistId)return;
+  try{
+    const r=await fetch(`https://api.github.com/gists/${gistId}`,{headers:{'Authorization':`token ${gitToken}`,'User-Agent':'tablero-app'}});
+    if(!r.ok)return;
+    const d=await r.json();
+    const content=d.files['tablero.json']?.content;
+    if(!content)return;
+    const data=JSON.parse(content);
+    if(data.boards?.length){S=data;S.version=VER;render()}
+  }catch(e){console.error('No se pudo cargar del Gist:',e)}
+}
+loadFromGist();
+let warned=0,saveT=null;
+const save=()=>{clearTimeout(saveT);saveT=setTimeout(()=>{try{localStorage.setItem(K,JSON.stringify(S))}catch(e){if(!warned){warned=1;alert('El navegador se ha quedado sin espacio para guardar. Usa Exportar para hacer una copia y reduce el número de imágenes.')}};autoSaveGitHub()},300)};
+
+if(!gitToken){ask('Token de GitHub (para auto-guardar en Gist):','',val=>{if(val){gitToken=val;localStorage.setItem(TOKEN_KEY,gitToken);autoSaveGitHub()}})}
+async function autoSaveGitHub(){
+  if(!gitToken)return;
+  const content=JSON.stringify(S,null,2);
+  try{
+    if(gistId){
+      await fetch(`https://api.github.com/gists/${gistId}`,{method:'PATCH',headers:{'Authorization':`token ${gitToken}`,'Content-Type':'application/json'},body:JSON.stringify({files:{'tablero.json':{content}}})});
+    }else{
+      const r=await fetch('https://api.github.com/gists',{method:'POST',headers:{'Authorization':`token ${gitToken}`,'Content-Type':'application/json'},body:JSON.stringify({description:'Tablero Kanban - auto-save',public:false,files:{'tablero.json':{content}}})});
+      const d=await r.json();if(d.id){gistId=d.id;localStorage.setItem(GIST_KEY,gistId)}
+    }
+  }catch(e){console.error('Auto-save falló:',e)}
+}
+setInterval(autoSaveGitHub,30000);
+const B=()=>S.boards.find(b=>b.id===S.cur)||S.boards[0];
+const colOf=id=>B().cols.find(c=>c.id===id);
+const loc=id=>{for(const c of B().cols){const i=c.cards.findIndex(k=>k.id===id);if(i>=0)return{c,i}}};
+const board=$('board'),sel=$('sel'),dlg=$('dlg'),menu=$('menu');
+function toast(msg,fn){const t=$('toast');t.innerHTML=`<span>${msg}</span><button id="undo">Deshacer</button>`;t.hidden=false;requestAnimationFrame(()=>{t.style.opacity='1';t.style.transform='translateX(-50%) translateY(0)'});$('undo').onclick=()=>{hideToast()};setTimeout(hideToast,5000)}
+function hideToast(){const t=$('toast');t.style.opacity='0';t.style.transform='translateX(-50%) translateY(20px)';setTimeout(()=>{t.hidden=true},200)}
+const img=(f,m)=>new Promise((r,j)=>{const i=new Image(),u=URL.createObjectURL(f);i.onload=()=>{const s=Math.min(1,m/Math.max(i.width,i.height)),c=document.createElement('canvas');c.width=i.width*s;c.height=i.height*s;c.getContext('2d').drawImage(i,0,0,c.width,c.height);URL.revokeObjectURL(u);r(c.toDataURL('image/jpeg',.72))};i.onerror=()=>{URL.revokeObjectURL(u);j(new Error('No se pudo cargar la imagen'))};i.src=u});
+
+function cardHTML(k){
+  const ck=k.ck||[],dn=ck.filter(x=>x.x).length;
+  return `<div class="card" tabindex="0" draggable="true" data-k="${k.id}">${k.cv?`<img class="cv" src="${k.cv}" alt="">`:''}<div class="cb">
+  ${k.l&&k.l.length?`<div class="lb">${k.l.map(x=>`<i style="background:${LC[x][0]}"></i>`).join('')}</div>`:''}
+  <div class="ct"><button class="ok${k.done?' on':''}" data-ok="${k.id}" aria-label="Marcar como hecha" aria-pressed="${!!k.done}">${k.done?'✓':''}</button><span>${k.pinned?'📌 ':''}${esc(k.t)}</span></div>
+  ${k.d||ck.length?`<div class="bd">${k.d?'<span title="Tiene descripción">≡</span>':''}${ck.length?`<span title="Lista de tareas">☑ ${dn}/${ck.length}</span>`:''}</div>`:''}
+  </div></div>`}
+
+let home=true,dirty=false;
+const GR=['#00acc8','linear-gradient(#475677,#1b3157)','#6b8f71','#c9372c','#9f8fef','#e2b203'];
+function renderHome(q){
+  const l=S.boards.map((b,i)=>[b,i]).filter(([b])=>!q||b.name.toLowerCase().includes(q)).sort((a,c)=>!!c[0].fav-!!a[0].fav);
+  $('home').innerHTML=`<div class="hw"><h2>Tus tableros</h2><div class="grid">${l.map(([b,i])=>`<div class="tile"><button class="open" data-b="${b.id}"><div class="th" style="background:${b.bg?`url(${b.bg}) center/cover`:GR[i%GR.length]}"></div><div class="tn">${esc(b.name)}</div></button><button class="star${b.fav?' on':''}" data-s="${b.id}" aria-label="Destacar tablero" aria-pressed="${!!b.fav}">★</button></div>`).join('')}<button class="tile new" id="newt">Crear un tablero nuevo</button><button class="tile new" id="importBtn">Importar tableros</button></div></div>`}
+let raf=null;
+function render(){if(raf)return;raf=requestAnimationFrame(()=>{raf=null;renderImpl()})}
+function renderImpl(){
+  const b=B();S.cur=b.id;
+  const q=$('q').value.trim().toLowerCase();
+  document.body.style.background=home?'#fff':b.bg?`url(${b.bg}) center/cover fixed`:'';
+  $('home').hidden=!home;$('bar').hidden=home;board.hidden=home;
+  if(home){renderHome(q);save();return}
+  $('bgx').hidden=!b.bg;
+  sel.innerHTML=S.boards.map(x=>`<option value="${x.id}"${x.id===b.id?' selected':''}>${esc(x.name)}</option>`).join('');
+  board.innerHTML=b.cols.map(c=>c.min?
+   `<section class="col min" data-c="${c.id}"><button class="x" data-mn="${c.id}" aria-label="Expandir columna">»</button><h2>${esc(c.t)} · ${c.cards.length}</h2></section>`:
+   `<section class="col" data-c="${c.id}" draggable="true"><div class="ch"><h2 data-t="1" spellcheck="false">${c.fixed?'🔒 ':''}${esc(c.t)}</h2><span class="n">${c.cards.length}</span>
+    <button class="x" data-mn="${c.id}" aria-label="Contraer columna">«</button><button class="x" data-mm="${c.id}" aria-label="Más opciones">⋯</button></div>
+    <div class="cards">${c.cards.filter(k=>!q||(k.t+' '+(k.d||'')).toLowerCase().includes(q)).sort((a,b)=>(b.pinned||false)-(a.pinned||false)).map(cardHTML).join('')||'<div style="padding:12px;text-align:center;color:#8590a2;font-size:13px">Sin tarjetas</div>'}</div>
+    <input class="add" data-add="${c.id}" placeholder="+ Añade una tarjeta" maxlength="300" aria-label="Añadir tarjeta"></section>`).join('')
+   +'<input class="addcol" id="addcol" placeholder="+ Añade otra columna" maxlength="60" aria-label="Añadir columna">';
+  save();
+}
+
+function startEdit(el){el.contentEditable='true';el.focus();getSelection().selectAllChildren(el)}
+board.addEventListener('click',e=>{
+  const t=e.target,ok=t.closest('[data-ok]'),mn=t.closest('[data-mn]'),mm=t.closest('[data-mm]'),card=t.closest('.card');
+  if(ok){const {c,i}=loc(ok.dataset.ok);c.cards[i].done=!c.cards[i].done;render();return}
+  if(mn){const c=colOf(mn.dataset.mn);c.min=!c.min;render();return}
+  if(mm){e.stopPropagation();menu.dataset.c=mm.dataset.mm;const r=mm.getBoundingClientRect();menu.style.left=r.left+'px';menu.style.top=r.bottom+4+'px';menu.style.display='block';return}
+  if(card)openCard(card.dataset.k);
+});
+document.addEventListener('click',()=>menu.style.display='none');
+menu.addEventListener('click',e=>{
+  const a=e.target.dataset.a,c=colOf(menu.dataset.c);if(!a||!c)return;
+  if(a==='ren'){if(c.fixed)return alert('Esta columna está fijada.');startEdit(board.querySelector(`[data-c="${c.id}"] h2`))}
+  else if(a==='clr'){if(c.cards.length&&confirm('¿Eliminar las '+c.cards.length+' tarjetas de "'+c.t+'"?')){const old=c.cards;c.cards=[];render();toast('Columna vaciada',()=>{c.cards=old;render()})}}
+  else if(a==='fix'){c.fixed=!c.fixed;render()}
+  else if(a==='del'){if(c.fixed)return alert('Esta columna está fijada.');if(!c.cards.length||confirm('¿Eliminar la columna "'+c.t+'" y sus '+c.cards.length+' tarjetas?')){const i=B().cols.indexOf(c);B().cols.splice(i,1);render();toast('Columna eliminada',()=>{B().cols.splice(i,0,c);render()})}}
+});
+board.addEventListener('keydown',e=>{
+  const t=e.target;
+  if(e.key==='Enter'&&t.dataset.add!==undefined&&t.value.trim()){const id=t.dataset.add;colOf(id).cards.push({id:uid(),t:t.value.trim()});render();board.querySelector(`[data-add="${id}"]`).focus()}
+  else if(e.key==='Enter'&&t.id==='addcol'&&t.value.trim()){B().cols.push({id:uid(),t:t.value.trim(),cards:[]});render();$('addcol').focus();board.scrollLeft=board.scrollWidth}
+  else if(t.isContentEditable&&(e.key==='Enter'||e.key==='Escape')){e.preventDefault();t.blur()}
+  else if(e.key==='Enter'&&t.classList.contains('card'))openCard(t.dataset.k);
+});
+board.addEventListener('dblclick',e=>{const h=e.target.closest('h2[data-t]');if(h)startEdit(h)});
+board.addEventListener('focusout',e=>{
+  const el=e.target;if(!el.isContentEditable)return;
+  const c=colOf(el.closest('.col').dataset.c),txt=el.textContent.trim();
+  if(txt)c.t=txt;el.textContent=c.t;el.contentEditable='false';save();
+});
+$('q').oninput=render;
+
+let drag=null,colDrag=null;
+board.addEventListener('dragstart',e=>{
+  const k=e.target.closest('.card');
+  if(k){drag=k.dataset.k;e.dataTransfer.effectAllowed='move';e.dataTransfer.setData('text/plain',drag);setTimeout(()=>k.classList.add('dragging'),0);return}
+  const col=e.target.closest('.col');
+  if(col&&!e.target.closest('.card')){colDrag=col.dataset.c;e.dataTransfer.effectAllowed='move';e.dataTransfer.setData('text/plain','col:'+colDrag);col.classList.add('dragging')}
+});
+board.addEventListener('dragend',()=>{drag=null;colDrag=null;document.querySelectorAll('.dragging,.over').forEach(x=>x.classList.remove('dragging','over'))});
+board.addEventListener('dragover',e=>{
+  if(colDrag){const c=e.target.closest('.col');if(c&&c.dataset.c!==colDrag){e.preventDefault();document.querySelectorAll('.col.over').forEach(x=>x!==c&&x.classList.remove('over'));c.classList.add('over')}return}
+  if(!drag)return;const c=e.target.closest('.col');if(!c)return;e.preventDefault();document.querySelectorAll('.over').forEach(x=>x!==c&&x.classList.remove('over'));c.classList.add('over')});
+board.addEventListener('drop',e=>{
+  if(colDrag){const col=e.target.closest('.col');if(!col||col.dataset.c===colDrag)return;e.preventDefault();
+    const from=B().cols.findIndex(c=>c.id===colDrag),to=B().cols.findIndex(c=>c.id===col.dataset.c);
+    const [moved]=B().cols.splice(from,1);B().cols.splice(to,0,moved);colDrag=null;render();return}
+  const col=e.target.closest('.col');if(!col||!drag)return;e.preventDefault();
+  const {c,i}=loc(drag),[k]=c.cards.splice(i,1),dest=colOf(col.dataset.c);
+  const els=[...col.querySelectorAll('.card:not(.dragging)')];
+  let idx=els.findIndex(el=>{const r=el.getBoundingClientRect();return e.clientY<r.top+r.height/2});
+  if(idx<0)idx=els.length;
+  dest.cards.splice(idx,0,k);drag=null;render();
+});
+
+/* Ventana de tarjeta */
+let cc=null,ck=null;
+function openCard(id){const r=loc(id);cc=r.c;ck=r.c.cards[r.i];ck.l=ck.l||[];ck.ck=ck.ck||[];dirty=false;draw();if(!dlg.open)dlg.showModal()}
+function draw(){
+  dlg.innerHTML=`${ck.cv?`<img class="mcv" src="${ck.cv}" alt="">`:''}<div class="mb">
+  <input class="mt" id="mt" value="${esc(ck.t)}" aria-label="Título de la tarjeta" maxlength="300">
+  <p class="ml">En la columna ${esc(cc.t)}</p>
+  <div><h3>Etiquetas</h3><div class="row" style="margin-top:6px">${Object.entries(LC).map(([n,[col,nm]])=>`<button class="lab" data-l="${n}" style="background:${col}" aria-label="${nm}" aria-pressed="${ck.l.includes(n)}">${ck.l.includes(n)?'✓':''}</button>`).join('')}</div></div>
+  <label>Descripción<textarea id="md" rows="4" placeholder="Añade una descripción más detallada…">${esc(ck.d)}</textarea></label>
+  <div><h3>Lista de tareas</h3>${ck.ck.map((x,i)=>`<div class="ci"><input type="checkbox" data-ci="${i}" ${x.x?'checked':''} aria-label="Hecha"><input class="cit" data-ct="${i}" value="${esc(x.t)}" aria-label="Tarea"><button class="x" data-cd="${i}" aria-label="Eliminar tarea">×</button></div>`).join('')}
+  <div class="ci" style="margin-top:6px"><input class="cadd" id="cadd" placeholder="Añadir un elemento" aria-label="Añadir tarea"></div></div>
+  <div class="row"><button class="btn" id="cvb">${ck.cv?'Cambiar portada':'Añadir portada'}</button>${ck.cv?'<button class="btn" id="cvx">Quitar portada</button>':''}<input type="file" id="cvf" accept="image/*" hidden>
+  <button class="btn" id="cpin">${ck.pinned?'Desfijar':'Fijar'}</button><button class="btn" id="cdup">Duplicar</button><button class="btn" id="cmove">Mover a otro tablero</button><span style="flex:1"></span><button class="btn del" id="cdel">Eliminar tarjeta</button><button class="btn" id="cclose">Cerrar</button></div></div>`}
+dlg.addEventListener('click',async e=>{
+  const t=e.target;
+  if(t.dataset.l){const l=ck.l,i=l.indexOf(t.dataset.l);i<0?l.push(t.dataset.l):l.splice(i,1);dirty=true;draw()}
+  else if(t.dataset.cd!==undefined){ck.ck.splice(+t.dataset.cd,1);dirty=true;draw()}
+  else if(t.id==='cvb')$('cvf').click();
+  else if(t.id==='cvx'){delete ck.cv;dirty=true;draw()}
+  else if(t.id==='cpin'){ck.pinned=!ck.pinned;dirty=true;draw();save()}
+  else if(t.id==='cdup'){const copy={...ck,id:uid(),t:ck.t+' (copia)',ck:ck.ck?ck.ck.map(x=>({...x})):[]};cc.cards.splice(cc.cards.indexOf(ck)+1,0,copy);draw();save()}
+  else if(t.id==='cmove'){const otherBoards=S.boards.filter(b=>b!==B());if(!otherBoards.length)return alert('No hay otros tableros.');pick('¿A qué tablero mover?',otherBoards.map(b=>b.name),name=>{const destBoard=otherBoards.find(b=>b.name===name);if(!destBoard)return;pick('¿A qué columna?',destBoard.cols.map(c=>c.t),colName=>{const destCol=destBoard.cols.find(c=>c.t===colName);if(!destCol)return;cc.cards.splice(cc.cards.indexOf(ck),1);destCol.cards.push(ck);S.cur=destBoard.id;dlg.close();render();toast('Tarjeta movida a '+destBoard.name)})})}
+  else if(t.id==='cmove'){const otherBoards=S.boards.filter(b=>b!==B());if(!otherBoards.length)return alert('No hay otros tableros.');moveBoardStep1(otherBoards)}
+  else if(t.id==='cdel'){const i=cc.cards.indexOf(ck);cc.cards.splice(i,1);dlg.close();toast('Tarjeta eliminada',()=>{cc.cards.splice(i,0,ck);render()})}
+  else if(t.id==='cclose'||t===dlg)dlg.close();
+  save();
+});
+dlg.addEventListener('input',e=>{
+  const t=e.target;
+  if(t.id==='mt')ck.t=t.value;else if(t.id==='md')ck.d=t.value;else if(t.dataset.ct!==undefined)ck.ck[+t.dataset.ct].t=t.value;
+  dirty=true;save();
+});
+dlg.addEventListener('change',async e=>{
+  const t=e.target;
+  if(t.dataset.ci!==undefined){ck.ck[+t.dataset.ci].x=t.checked;dirty=true;save()}
+  else if(t.id==='cvf'&&t.files[0]){if(t.files[0].size>2*1024*1024){alert('La imagen es demasiado grande (máx. 2 MB).')}else{try{ck.cv=await img(t.files[0],640);draw();save();render()}catch(x){alert('No se pudo procesar la imagen.')}}}
+});
+dlg.addEventListener('keydown',e=>{
+  if(e.key==='Enter'&&e.target.id==='cadd'&&e.target.value.trim()){ck.ck.push({t:e.target.value.trim(),x:false});draw();$('cadd').focus();save()}
+  else if(e.key==='Enter'&&e.target.id==='mt')e.target.blur();
+});
+dlg.addEventListener('close',()=>{if(ck&&dirty&&!ck.t.trim()){if(confirm('La tarjeta está vacía. ¿Eliminarla?')){cc.cards=cc.cards.filter(x=>x!==ck)}else{ck.t='Sin título';cc.cards.push(ck)}render()}});
+
+/* Cabecera */
+sel.onchange=()=>{S.cur=sel.value;render()};
+function ask(title,def,cb){
+  const d=$('askDlg');$('askTitle').textContent=title;$('askInput').value=def||'';d.showModal();$('askInput').focus();
+  $('askOk').onclick=()=>{const v=$('askInput').value.trim();d.close();if(v)cb(v)};
+  $('askCancel').onclick=()=>d.close();
+}
+function pick(title,items,cb){
+  const d=$('pickDlg');$('pickTitle').textContent=title;const list=$('pickList');list.innerHTML='';
+  items.forEach(name=>{const btn=document.createElement('button');btn.className='btn';btn.style.textAlign='left';btn.textContent=name;btn.onclick=()=>{d.close();cb(name)};list.appendChild(btn)});
+  d.showModal();
+  $('pickCancel').onclick=()=>d.close();
+}
+const newBoard=()=>ask('Nombre del nuevo tablero','',n=>{const id=uid();S.boards.push({id,name:n,cols:[{id:uid(),t:'Por hacer',cards:[]},{id:uid(),t:'En curso',cards:[]},{id:uid(),t:'Hecho',cards:[]}]});S.cur=id;home=false;render()});
+$('nb').onclick=newBoard;
+$('rb').onclick=()=>ask('Nuevo nombre',B().name,n=>{B().name=n;render()});
+$('db').onclick=()=>{if(S.boards.length<2)return alert('Necesitas al menos un tablero.');if(confirm('¿Eliminar el tablero "'+B().name+'"?')){S.boards=S.boards.filter(x=>x!==B());S.cur=S.boards[0].id;home=true;render()}};
+$('bgb').onclick=()=>$('bgf').click();
+$('bgf').onchange=async e=>{const f=e.target.files[0];if(f){if(f.size>4*1024*1024){alert('La imagen es demasiado grande (máx. 4 MB).')}else{try{B().bg=await img(f,1600);render()}catch(x){alert('No se pudo procesar la imagen.')}}}e.target.value=''};
+$('bgx').onclick=()=>{delete B().bg;render()};
+$('eb').onclick=()=>{const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([JSON.stringify(S,null,2)],{type:'application/json'}));a.download='tablero-copia.json';a.click();URL.revokeObjectURL(a.href)};
+$('ib').onclick=()=>$('file').click();
+$('file').onchange=async e=>{const f=e.target.files[0];if(!f)return;try{const d=JSON.parse(await f.text());if(!Array.isArray(d.boards)||!d.boards.length)throw 0;S.boards=S.boards.concat(d.boards);S.cur=d.boards[0].id;home=false;render();toast('Tableros importados',()=>{})}catch(x){alert('El archivo no es una copia válida.')}e.target.value=''};
+$('hb').onclick=()=>{home=true;render()};
+$('home').addEventListener('click',e=>{
+  const o=e.target.closest('[data-b]'),s=e.target.closest('[data-s]');
+  if(s){const b=S.boards.find(x=>x.id===s.dataset.s);b.fav=!b.fav;render()}
+  else if(o){S.cur=o.dataset.b;home=false;render()}
+  else if(e.target.closest('#newt'))newBoard();
+  else if(e.target.closest('#importBtn'))$('file').click();
+});
+document.addEventListener('keydown',e=>{
+  if(e.target.matches('input,textarea,[contenteditable]'))return;
+  if(e.key==='/'&&!home){e.preventDefault();$('q').focus()}
+  else if(e.key==='n'&&!home){e.preventDefault();board.querySelector('[data-add]')?.focus()}
+});
+render();
+</script>
+</body>
+</html>
