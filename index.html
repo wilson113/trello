@@ -183,7 +183,7 @@ loadFromGist();
 let warned=0,saveT=null;
 const save=()=>{clearTimeout(saveT);saveT=setTimeout(()=>{try{localStorage.setItem(K,JSON.stringify(S))}catch(e){if(!warned){warned=1;alert('El navegador se ha quedado sin espacio para guardar. Usa Exportar para hacer una copia y reduce el número de imágenes.')}};autoSaveGitHub()},300)};
 
-if(!gitToken){ask('Token de GitHub (para auto-guardar en Gist):','',val=>{if(val){gitToken=val;localStorage.setItem(TOKEN_KEY,gitToken);if(!gistId){fetch('https://api.github.com/gists',{headers:{'Authorization':`token ${gitToken}`,'User-Agent':'tablero-app'}}).then(r=>r.json()).then(d=>{if(d[0]?.id){gistId=d[0].id;localStorage.setItem(GIST_KEY,gistId);loadFromGist()}})}else{loadFromGist()}}})}
+if(!gitToken){ask('Token de GitHub (para auto-guardar en Gist):','',val=>{if(val){gitToken=val;localStorage.setItem(TOKEN_KEY,gitToken);if(!gistId){fetch('https://api.github.com/gists',{headers:{'Authorization':`token ${gitToken}`,'User-Agent':'tablero-app'}}).then(r=>r.json()).then(d=>{if(d?.length){d.sort((a,b)=>new Date(b.updated_at)-new Date(a.updated_at));gistId=d[0].id;localStorage.setItem(GIST_KEY,gistId);loadFromGist()}})}else{loadFromGist()}}})}
 function syncFromGist(){if(!gitToken||!gistId)return alert('Primero ingresa tu token.');loadFromGist();toast('Sincronizando...',()=>{})}
 $('hb').onclick=()=>{home=true;render()};
 async function autoSaveGitHub(){
