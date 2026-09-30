@@ -158,47 +158,44 @@ const LC={r:['#f87168','Rojo'],o:['#fca700','Naranja'],y:['#e2b203','Amarillo'],
 function seed(){const id=uid();return{cur:id,boards:[{id,name:'Mi tablero',cols:[
   {id:uid(),t:'Por hacer',cards:[{id:uid(),t:'Haz clic en esta tarjeta para abrirla',l:['b','g']}]},
   {id:uid(),t:'En curso',cards:[]},{id:uid(),t:'Hecho',cards:[]}]}]}}
-/* Auto-save a GitHub Gist */
-const GIST_KEY='tablero-gist',TOKEN_KEY='tablero-token';
-let gistId=localStorage.getItem(GIST_KEY),gitToken=localStorage.getItem(TOKEN_KEY);
+/* Sincronización con GitHub Gist */
+const GIST_ID='b729f410ede20a7ec2db84de7f378b1d',TOKEN_KEY='tablero-token';
+let gitToken=localStorage.getItem(TOKEN_KEY);
 
 let S;try{S=JSON.parse(localStorage.getItem(K))}catch(e){}
 if(!S||!Array.isArray(S.boards)||!S.boards.length)S=seed();
 S.version=VER;
 
-/* Cargar desde Gist si existe */
-async function loadFromGist(){
-  if(!gitToken||!gistId)return;
+let warned=0,saveT=null;
+const save=()=>{clearTimeout(saveT);saveT=setTimeout(()=>{try{localStorage.setItem(K,JSON.stringify(S))}catch(e){if(!warned){warned=1;alert('El navegador se ha quedado sin espacio para guardar. Usa Exportar para hacer una copia y reduce el número de imágenes.')}};uploadToGist()},300)};
+
+if(!gitToken){ask('Token de GitHub (para sincronizar):','',val=>{if(val){gitToken=val;localStorage.setItem(TOKEN_KEY,gitToken);downloadFromGist()}})}
+function syncFromGist(){if(!gitToken)return alert('Primero ingresa tu token.');downloadFromGist();toast('Sincronizando...',()=>{})}
+$('hb').onclick=()=>{home=true;render()};
+
+async function downloadFromGist(){
+  if(!gitToken)return;
   try{
-    const r=await fetch(`https://api.github.com/gists/${gistId}`,{headers:{'Authorization':`token ${gitToken}`,'User-Agent':'tablero-app'}});
+    const r=await fetch(`https://api.github.com/gists/${GIST_ID}`,{headers:{'Authorization':`token ${gitToken}`,'User-Agent':'tablero-app'}});
     if(!r.ok)return;
     const d=await r.json();
     const content=d.files['tablero.json']?.content;
     if(!content)return;
     const data=JSON.parse(content);
-    if(data.boards?.length){S=data;S.version=VER;render()}
-  }catch(e){console.error('No se pudo cargar del Gist:',e)}
+    if(data.boards?.length){
+      data.boards.forEach(b=>{if(!S.boards.find(x=>x.id===b.id))S.boards.push(b)});
+      S.version=VER;render();save();
+    }
+  }catch(e){console.error('No se pudo descargar del Gist:',e)}
 }
-loadFromGist();
-let warned=0,saveT=null;
-const save=()=>{clearTimeout(saveT);saveT=setTimeout(()=>{try{localStorage.setItem(K,JSON.stringify(S))}catch(e){if(!warned){warned=1;alert('El navegador se ha quedado sin espacio para guardar. Usa Exportar para hacer una copia y reduce el número de imágenes.')}};autoSaveGitHub()},300)};
-
-if(!gitToken){ask('Token de GitHub (para auto-guardar en Gist):','',val=>{if(val){gitToken=val;localStorage.setItem(TOKEN_KEY,gitToken);if(!gistId){fetch('https://api.github.com/gists',{headers:{'Authorization':`token ${gitToken}`,'User-Agent':'tablero-app'}}).then(r=>r.json()).then(d=>{if(d?.length){d.sort((a,b)=>new Date(b.updated_at)-new Date(a.updated_at));gistId=d[0].id;localStorage.setItem(GIST_KEY,gistId);loadFromGist()}})}else{loadFromGist()}}})}
-function syncFromGist(){if(!gitToken||!gistId)return alert('Primero ingresa tu token.');loadFromGist();toast('Sincronizando...',()=>{})}
-$('hb').onclick=()=>{home=true;render()};
-async function autoSaveGitHub(){
+async function uploadToGist(){
   if(!gitToken)return;
   const content=JSON.stringify(S,null,2);
   try{
-    if(gistId){
-      await fetch(`https://api.github.com/gists/${gistId}`,{method:'PATCH',headers:{'Authorization':`token ${gitToken}`,'Content-Type':'application/json'},body:JSON.stringify({files:{'tablero.json':{content}}})});
-    }else{
-      const r=await fetch('https://api.github.com/gists',{method:'POST',headers:{'Authorization':`token ${gitToken}`,'Content-Type':'application/json'},body:JSON.stringify({description:'Tablero Kanban - auto-save',public:false,files:{'tablero.json':{content}}})});
-      const d=await r.json();if(d.id){gistId=d.id;localStorage.setItem(GIST_KEY,gistId)}
-    }
-  }catch(e){console.error('Auto-save falló:',e)}
+    await fetch(`https://api.github.com/gists/${GIST_ID}`,{method:'PATCH',headers:{'Authorization':`token ${gitToken}`,'Content-Type':'application/json'},body:JSON.stringify({files:{'tablero.json':{content}}})});
+  }catch(e){console.error('No se pudo subir al Gist:',e)}
 }
-setInterval(autoSaveGitHub,30000);
+setInterval(uploadToGist,30000);
 const B=()=>S.boards.find(b=>b.id===S.cur)||S.boards[0];
 const colOf=id=>B().cols.find(c=>c.id===id);
 const loc=id=>{for(const c of B().cols){const i=c.cards.findIndex(k=>k.id===id);if(i>=0)return{c,i}}};
