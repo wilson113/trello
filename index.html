@@ -89,6 +89,25 @@ dialog::backdrop{background:rgba(0,0,0,.6)}
 .btn{border:0;background:#091e420f;border-radius:4px;padding:6px 12px;transition:background .15s ease}
 .btn:hover{background:#091e4224}
 .btn.del{color:#ae2e24}
+@media(max-width:600px){
+  #top{flex-wrap:wrap;height:auto;padding:6px 8px;gap:6px}
+  #top b{font-size:14px}
+  #q{max-width:100%;order:3;flex-basis:100%}
+  #bar{flex-direction:column;align-items:stretch;padding:8px}
+  #bar .sp{display:none}
+  #sel{max-width:100%}
+  .tb{width:100%;text-align:center}
+  #board{flex-direction:column;overflow-x:hidden;overflow-y:auto;padding:8px}
+  .col{width:100%;max-height:none}
+  .col.min{width:100%;flex-direction:row;padding:8px}
+  .col.min h2{writing-mode:horizontal-tb}
+  .addcol{width:100%}
+  .hw{padding:16px 12px}
+  .grid{grid-template-columns:1fr}
+  .tile{min-height:80px}
+  #toast{left:10px;right:10px;transform:none;bottom:10px;width:auto}
+  #toast button{margin-left:auto}
+}
 </style>
 </head>
 <body>
