@@ -209,6 +209,11 @@ function renderImpl(){
   if(home){renderHome(q);save();return}
   $('bgx').hidden=!b.bg;
   sel.innerHTML=S.boards.map(x=>`<option value="${x.id}"${x.id===b.id?' selected':''}>${esc(x.name)}</option>`).join('');
+  if(q){
+    const results=[];
+    S.boards.forEach(bd=>{bd.cols.forEach(c=>{c.cards.forEach(k=>{if((k.t+' '+(k.d||'')).toLowerCase().includes(q))results.push({board:bd,col:c,card:k})})})});
+    board.innerHTML=`<div style="padding:20px;width:100%"><h2 style="margin:0 0 16px;font-size:16px;color:#172b4d">${results.length} resultado${results.length!==1?'s':''} en ${S.boards.length} tableros</h2><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(272px,1fr));gap:12px">${results.map(r=>`<div style="background:#f1f2f4;border-radius:12px;padding:12px"><div style="font-size:12px;color:#626f86;margin-bottom:8px">${esc(r.board.name)} → ${esc(r.col.t)}</div><div class="card" data-k="${r.card.id}" data-board="${r.board.id}" style="cursor:pointer">${r.card.cv?`<img class="cv" src="${r.card.cv}" alt="">`:''}<div class="cb"><div class="ct"><span>${r.card.pinned?'📌 ':''}${esc(r.card.t)}</span></div></div></div></div>`).join('')}</div></div>`;
+  }else{
   board.innerHTML=b.cols.map(c=>c.min?
    `<section class="col min" data-c="${c.id}"><button class="x" data-mn="${c.id}" aria-label="Expandir columna">»</button><h2>${esc(c.t)} · ${c.cards.length}</h2></section>`:
    `<section class="col" data-c="${c.id}" draggable="true"><div class="ch"><h2 data-t="1" spellcheck="false">${c.fixed?'🔒 ':''}${esc(c.t)}</h2><span class="n">${c.cards.length}</span>
@@ -216,6 +221,7 @@ function renderImpl(){
     <div class="cards">${c.cards.filter(k=>!q||(k.t+' '+(k.d||'')).toLowerCase().includes(q)).sort((a,b)=>(b.pinned||false)-(a.pinned||false)).map(cardHTML).join('')||'<div style="padding:12px;text-align:center;color:#8590a2;font-size:13px">Sin tarjetas</div>'}</div>
     <input class="add" data-add="${c.id}" placeholder="+ Añade una tarjeta" maxlength="300" aria-label="Añadir tarjeta"></section>`).join('')
    +'<input class="addcol" id="addcol" placeholder="+ Añade otra columna" maxlength="60" aria-label="Añadir columna">';
+  }
   save();
 }
 
