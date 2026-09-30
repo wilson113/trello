@@ -184,6 +184,8 @@ let warned=0,saveT=null;
 const save=()=>{clearTimeout(saveT);saveT=setTimeout(()=>{try{localStorage.setItem(K,JSON.stringify(S))}catch(e){if(!warned){warned=1;alert('El navegador se ha quedado sin espacio para guardar. Usa Exportar para hacer una copia y reduce el número de imágenes.')}};autoSaveGitHub()},300)};
 
 if(!gitToken){ask('Token de GitHub (para auto-guardar en Gist):','',val=>{if(val){gitToken=val;localStorage.setItem(TOKEN_KEY,gitToken);autoSaveGitHub()}})}
+function syncFromGist(){if(!gitToken||!gistId)return alert('Primero ingresa tu token.');loadFromGist();toast('Sincronizando...',()=>{})}
+$('hb').onclick=()=>{home=true;render()};
 async function autoSaveGitHub(){
   if(!gitToken)return;
   const content=JSON.stringify(S,null,2);
@@ -217,7 +219,7 @@ let home=true,dirty=false;
 const GR=['#00acc8','linear-gradient(#475677,#1b3157)','#6b8f71','#c9372c','#9f8fef','#e2b203'];
 function renderHome(q){
   const l=S.boards.map((b,i)=>[b,i]).filter(([b])=>!q||b.name.toLowerCase().includes(q)).sort((a,c)=>!!c[0].fav-!!a[0].fav);
-  $('home').innerHTML=`<div class="hw"><h2>Tus tableros</h2><div class="grid">${l.map(([b,i])=>`<div class="tile"><button class="open" data-b="${b.id}"><div class="th" style="background:${b.bg?`url(${b.bg}) center/cover`:GR[i%GR.length]}"></div><div class="tn">${esc(b.name)}</div></button><button class="star${b.fav?' on':''}" data-s="${b.id}" aria-label="Destacar tablero" aria-pressed="${!!b.fav}">★</button></div>`).join('')}<button class="tile new" id="newt">Crear un tablero nuevo</button><button class="tile new" id="importBtn">Importar tableros</button></div></div>`}
+  $('home').innerHTML=`<div class="hw"><h2>Tus tableros</h2><div class="grid">${l.map(([b,i])=>`<div class="tile"><button class="open" data-b="${b.id}"><div class="th" style="background:${b.bg?`url(${b.bg}) center/cover`:GR[i%GR.length]}"></div><div class="tn">${esc(b.name)}</div></button><button class="star${b.fav?' on':''}" data-s="${b.id}" aria-label="Destacar tablero" aria-pressed="${!!b.fav}">★</button></div>`).join('')}<button class="tile new" id="newt">Crear un tablero nuevo</button><button class="tile new" id="importBtn">Importar tableros</button><button class="tile new" id="syncBtn">Sincronizar con GitHub</button></div></div>`}
 let raf=null;
 function render(){if(raf)return;raf=requestAnimationFrame(()=>{raf=null;renderImpl()})}
 function renderImpl(){
@@ -371,6 +373,7 @@ $('home').addEventListener('click',e=>{
   else if(o){S.cur=o.dataset.b;home=false;render()}
   else if(e.target.closest('#newt'))newBoard();
   else if(e.target.closest('#importBtn'))$('file').click();
+  else if(e.target.closest('#syncBtn'))syncFromGist();
 });
 document.addEventListener('keydown',e=>{
   if(e.target.matches('input,textarea,[contenteditable]'))return;
