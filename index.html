@@ -231,7 +231,7 @@ board.addEventListener('click',e=>{
   if(ok){const {c,i}=loc(ok.dataset.ok);c.cards[i].done=!c.cards[i].done;render();return}
   if(mn){const c=colOf(mn.dataset.mn);c.min=!c.min;render();return}
   if(mm){e.stopPropagation();menu.dataset.c=mm.dataset.mm;const r=mm.getBoundingClientRect();menu.style.left=r.left+'px';menu.style.top=r.bottom+4+'px';menu.style.display='block';return}
-  if(card)openCard(card.dataset.k);
+  if(card){if(card.dataset.board){S.cur=card.dataset.board;home=false;render();setTimeout(()=>openCard(card.dataset.k),50)}else openCard(card.dataset.k)}
 });
 document.addEventListener('click',()=>menu.style.display='none');
 menu.addEventListener('click',e=>{
