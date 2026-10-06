@@ -169,7 +169,7 @@ S.version=VER;
 let warned=0,saveT=null;
 const save=()=>{clearTimeout(saveT);saveT=setTimeout(()=>{try{localStorage.setItem(K,JSON.stringify(S))}catch(e){if(!warned){warned=1;alert('El navegador se ha quedado sin espacio para guardar. Usa Exportar para hacer una copia y reduce el número de imágenes.')}};uploadToGist()},300)};
 
-if(!gitToken){ask('Token de GitHub (para sincronizar):','',val=>{if(val){gitToken=val;localStorage.setItem(TOKEN_KEY,gitToken);downloadFromGist()}})}
+if(!gitToken){ask('Token de GitHub (para sincronizar):','',val=>{if(val){gitToken=val;localStorage.setItem(TOKEN_KEY,gitToken)}})}
 function syncFromGist(){if(!gitToken)return alert('Primero ingresa tu token.');downloadFromGist();toast('Sincronizando...',()=>{})}
 $('hb').onclick=()=>{home=true;render()};
 
