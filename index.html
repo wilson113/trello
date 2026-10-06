@@ -318,7 +318,7 @@ dlg.addEventListener('click',async e=>{
   else if(t.id==='cvx'){delete ck.cv;dirty=true;draw()}
   else if(t.id==='cpin'){ck.pinned=!ck.pinned;dirty=true;draw();save()}
   else if(t.id==='cdup'){const copy={...ck,id:uid(),t:ck.t+' (copia)',ck:ck.ck?ck.ck.map(x=>({...x})):[]};cc.cards.splice(cc.cards.indexOf(ck)+1,0,copy);draw();save()}
-  else if(t.id==='cmove'){const otherBoards=S.boards.filter(b=>b!==B());if(!otherBoards.length)return alert('No hay otros tableros.');pick('¿A qué tablero mover?',otherBoards.map(b=>b.name),name=>{const destBoard=otherBoards.find(b=>b.name===name);if(!destBoard)return;pick('¿A qué columna?',destBoard.cols.map(c=>c.t),colName=>{const destCol=destBoard.cols.find(c=>c.t===colName);if(!destCol)return;cc.cards.splice(cc.cards.indexOf(ck),1);destCol.cards.push(ck);dlg.close();render();try{localStorage.setItem(K,JSON.stringify(S))}catch(e){};autoSaveGitHub();toast('Tarjeta movida a '+destBoard.name)})})}
+  else if(t.id==='cmove'){const otherBoards=S.boards.filter(b=>b!==B());if(!otherBoards.length)return alert('No hay otros tableros.');pick('¿A qué tablero mover?',otherBoards.map(b=>b.name),name=>{const destBoard=otherBoards.find(b=>b.name===name);if(!destBoard)return;pick('¿A qué columna?',destBoard.cols.map(c=>c.t),colName=>{const destCol=destBoard.cols.find(c=>c.t===colName);if(!destCol)return;cc.cards.splice(cc.cards.indexOf(ck),1);destCol.cards.push(ck);dirty=false;cc=null;dlg.close();render();save();toast('Tarjeta movida a '+destBoard.name)})})}
   else if(t.id==='cdel'){const i=cc.cards.indexOf(ck);cc.cards.splice(i,1);dlg.close();toast('Tarjeta eliminada',()=>{cc.cards.splice(i,0,ck);render()})}
   else if(t.id==='cclose'||t===dlg)dlg.close();
   save();
@@ -337,7 +337,7 @@ dlg.addEventListener('keydown',e=>{
   if(e.key==='Enter'&&e.target.id==='cadd'&&e.target.value.trim()){ck.ck.push({t:e.target.value.trim(),x:false});draw();$('cadd').focus();save()}
   else if(e.key==='Enter'&&e.target.id==='mt')e.target.blur();
 });
-dlg.addEventListener('close',()=>{if(ck&&dirty&&!ck.t.trim()){if(confirm('La tarjeta está vacía. ¿Eliminarla?')){cc.cards=cc.cards.filter(x=>x!==ck)}else{ck.t='Sin título';cc.cards.push(ck)}render()}});
+dlg.addEventListener('close',()=>{if(ck&&cc&&dirty&&!ck.t.trim()){if(confirm('La tarjeta está vacía. ¿Eliminarla?')){cc.cards=cc.cards.filter(x=>x!==ck)}else{ck.t='Sin título';cc.cards.push(ck)}render()}});
 
 /* Cabecera */
 sel.onchange=()=>{S.cur=sel.value;render()};
