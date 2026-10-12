@@ -168,8 +168,8 @@ S.version=VER;
 
 let warned=0,saveT=null;
 const save=()=>{clearTimeout(saveT);saveT=setTimeout(()=>{try{localStorage.setItem(K,JSON.stringify(S))}catch(e){if(!warned){warned=1;alert('El navegador se ha quedado sin espacio para guardar. Usa Exportar para hacer una copia y reduce el número de imágenes.')}}};syncPush()},300)};
-function syncPush(){const content=btoa(unescape(encodeURIComponent(JSON.stringify(S,null,2))));fetch(SYNC_URL,{method:'GET',headers:{'Authorization':`token ${SYNC_TOKEN}`,'Accept':'application/vnd.github.v3+json'}}).then(r=>r.json()).then(d=>{const sha=d.sha||'';return fetch(SYNC_URL,{method:'PUT',headers:{'Authorization':`token ${SYNC_TOKEN}`,'Content-Type':'application/json'},body:JSON.stringify({message:'auto-sync',content,sha})})}).catch(()=>{})}
-function syncPull(){fetch(SYNC_URL,{headers:{'Authorization':`token ${SYNC_TOKEN}`,'Accept':'application/vnd.github.v3+json'}}).then(r=>r.json()).then(d=>{if(d.content){const data=JSON.parse(decodeURIComponent(escape(atob(d.content))));if(data.boards?.length&&JSON.stringify(data)!==JSON.stringify(S)){S=data;S.version=VER;render()}}}).catch(()=>{})}
+function syncPush(){if(!syncToken)return;const content=btoa(unescape(encodeURIComponent(JSON.stringify(S,null,2))));fetch(SYNC_URL,{method:'GET',headers:{'Authorization':`token ${syncToken}`,'Accept':'application/vnd.github.v3+json'}}).then(r=>r.json()).then(d=>{const sha=d.sha||'';return fetch(SYNC_URL,{method:'PUT',headers:{'Authorization':`token ${syncToken}`,'Content-Type':'application/json'},body:JSON.stringify({message:'auto-sync',content,sha})})}).catch(()=>{})}
+function syncPull(){if(!syncToken)return;fetch(SYNC_URL,{headers:{'Authorization':`token ${syncToken}`,'Accept':'application/vnd.github.v3+json'}}).then(r=>r.json()).then(d=>{if(d.content){const data=JSON.parse(decodeURIComponent(escape(atob(d.content))));if(data.boards?.length&&JSON.stringify(data)!==JSON.stringify(S)){S=data;S.version=VER;render()}}}).catch(()=>{})}
 setInterval(syncPull,15000);
 $('hb').onclick=()=>{home=true;render()};
 const B=()=>S.boards.find(b=>b.id===S.cur)||S.boards[0];
