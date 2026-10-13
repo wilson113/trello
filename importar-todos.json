@@ -1,0 +1,5640 @@
+{
+  "cur": "2mt1unq",
+  "boards": [
+    {
+      "id": "2mt1unq",
+      "name": "OMAR",
+      "fav": true,
+      "bg": "",
+      "cols": [
+        {
+          "id": "lfcwrw4",
+          "t": "LUNES",
+          "min": false,
+          "cards": [
+            {
+              "id": "fopatkg",
+              "t": "[0401] C.S.C. MEDICAL GREEN SOLUTION",
+              "d": "CALLE ABIERTA DE 6H A 11H Y DE 14H A 17H. HAY UNA CÁMARA QUE MULTA",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3352] SNACK NECTA TWIST",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "vnk9jrw",
+              "t": "[0594] C.S.C. SKY HIGH",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3274] SNACK NECTA TWIST",
+                      "x": false
+                    },
+                    {
+                      "t": "[3140] REF VENDO 5501",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "yvfqei2",
+              "t": "[0657] C.S.C. THE STASH",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3333] SNACK NECTA TWIST",
+                      "x": false
+                    },
+                    {
+                      "t": "[2376] REF VENDO S-C47",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "oa7klqa",
+              "t": "[0432] C.S.C. STATIC",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[2314] FRIO VENDO SVE 550",
+                      "x": false
+                    },
+                    {
+                      "t": "[3257] SNACK VENDO G-SNACK SD8",
+                      "x": false
+                    }
+                  ]
+                },
+                {
+                  "t": "Checklist",
+                  "x": false,
+                  "items": []
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "4tn4igc",
+              "t": "[0583] C.S.C. AURA",
+              "d": "En el club de Barberà \n1 maquina \n\nNo\nCoca\nFanta\nEstrella\nGalicia\nNestea\n\nSi \núltimas 2 filas de bebidas\nEl restate nack\nCacaolat y dónut  \nAgua con gas",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3354] SNACK NECTA GUSTO",
+                      "x": false
+                    },
+                    {
+                      "t": "2123 REF VENDO 548",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "othihel",
+              "t": "[0624] C.S.C. GREEN STARS SABADELL",
+              "d": "MAQUINA REF EN PRICE HOLDING! PRECIOS EN MONEDERO NO CAMBIAR PRECIOS SIN CONSULTAR ANTES",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3294] SNACK NECTA TWIST",
+                      "x": false
+                    },
+                    {
+                      "t": "[2070] FRIO VENDO SVE 189-5",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "rqoyab7",
+              "t": "[0612] C.S.C. CANNAE",
+              "d": "#Estrella Galicia y Estrella Damm\nSi tiene configurado el servidor de correos se le hará llegar los datos al usuario. sino deberá proporcionárselo usted. El usuario es cannae y la contraseña: T3@pD6l#en'm",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3310] SNACK NECTA TWIST",
+                      "x": false
+                    },
+                    {
+                      "t": "[2075] REF VENDO 480/7",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "db9h6q1",
+              "t": "[0626] C.S.C. SAGO LEGO",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3198] SNACK VENDO SD8",
+                      "x": false
+                    },
+                    {
+                      "t": "[2304] REF VENDO 544",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            }
+          ]
+        },
+        {
+          "id": "sr7sh1u",
+          "t": "MARTES",
+          "min": false,
+          "cards": [
+            {
+              "id": "49l77qo",
+              "t": "[0655] C.S.C. WEED BROS ***(HACER LA LECTURA DEX SNACK CON LA PUERTA ABIERTA)***",
+              "d": "`Si tiene configurado el servidor de correos se le hará llegar los datos al usuario. sino deberá proporcionárselo usted. El usuario es weedbros y la contraseña: T3@p11363`\n[https://vending.redsys.es/atento-web](https://vending.redsys.es/atento-web \"smartCard-inline\")\nUsuario\n`weedbros`\n`contraseña`\n`T3@p11363`",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3247] SNACK VENDO BUDGET BS8",
+                      "x": false
+                    },
+                    {
+                      "t": "[2290] REF VENDO 480-7",
+                      "x": true
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "5lfjfhw",
+              "t": "[0689] C.S.C.  PADRINO (NAYAX)",
+              "d": "VA DE TODO PERO NO ALCOHOL. MISMOS PRECIOS Y PRODUCTOS QUE GREEN LAND.",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3347] SNACK NECTA TWIST",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "tu0qb7y",
+              "t": "[0355] C.S.C. STARGRASS",
+              "d": "`Si tiene configurado el servidor de correos se le hará llegar los datos al usuario. sino deberá proporcionárselo usted. El usuario es stargrass y la contraseña: T3@p56298`\n\n`stargrass `\n\n`T3@p56298`",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[2170] FRIO VENDO 544",
+                      "x": false
+                    },
+                    {
+                      "t": "[3282] SNACK NECTA JAZZ",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "5k4vpjw",
+              "t": "[0231] C.S.C. GALERÍA PRIM",
+              "d": "20 BIS",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[2055]  FRIO VENDO SVE 550",
+                      "x": false
+                    },
+                    {
+                      "t": "[3277]  SNACK NECTA JAZZ FOOD",
+                      "x": false
+                    }
+                  ]
+                },
+                {
+                  "t": "REVISION NAYAX SNACK",
+                  "x": false,
+                  "items": []
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "mkvoh3c",
+              "t": "[0664] C.S.C. BLUNT (SÁBADOS 16h)",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "Máquinas en cliente",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3286] SNACK VENDO SDX",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "3s9ap1y",
+              "t": "[0445] C.S.C. ICANNA",
+              "d": "NO PONER NINGUNA BEBIDA, NI SIQUIERA BIFRUTAS",
+              "l": [],
+              "ck": [],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "s9achjn",
+              "t": "[0462] C.S.C. AFV",
+              "d": "VERANO A PARTIR DE LAS 16:00h",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3245]  SNACK VENDO BUDGET BS8",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            }
+          ]
+        },
+        {
+          "id": "8wd4gyw",
+          "t": "MIERCOLES",
+          "min": false,
+          "cards": [
+            {
+              "id": "1537268",
+              "t": "[0579] C.S.C. ATLAS FUMADOR",
+              "d": "",
+              "l": [],
+              "ck": [],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "3fiqzo1",
+              "t": "[0632] C.S.C. GREEN PALACE BADALONA",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[2374] REF VENDO XS-C36",
+                      "x": false
+                    },
+                    {
+                      "t": "[3327] SNACK NECTA TWIST",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "vquu4up",
+              "t": "[0595] C.S.C. MARÍA MARÍA",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3349] SNACK NECTA TWIST",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "24tup2k",
+              "t": "[0668] C.S.C. ACM MATARÓ",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[2284] REF VENDO 544",
+                      "x": false
+                    },
+                    {
+                      "t": "[3249] SNACK BUDGET BS8",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "tk2su8s",
+              "t": "[0561] C.S.C. L'ESTUDI",
+              "d": "DEV0015257",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3339] SNACK NECTA TWIST",
+                      "x": false
+                    }
+                  ]
+                },
+                {
+                  "t": "Checklist",
+                  "x": false,
+                  "items": []
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "mizmqsz",
+              "t": "[0563] C.S.C. GREEN LAND (A PARTIR DE LAS 13H)",
+              "d": "APARTIR DE LAS 13H.\n`Si tiene configurado el servidor de correos se le hará llegar los datos al usuario. sino deberá proporcionárselo usted. El usuario es greenland y la contraseña: T3@p00326`\n\n`greenland `\n\n`T3@p00326`",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3228]  SNACK VENDO G-SNACK SDX",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "de7hhq5",
+              "t": "[0688] C.S.C. GAIA SENTMENAT",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3323] SNACK NECTA TWIST",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "ago5qd2",
+              "t": "[0662] C.S.C. SUPERSKUNK SABADELL",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3308]  SNACK NECTA TWIST",
+                      "x": false
+                    },
+                    {
+                      "t": "[2276]  REF VENDO GDRINK-6",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "9j3m6r2",
+              "t": "[0701] C.S.C. AJALÁ",
+              "d": "[https://maps.app.goo.gl/FRdSZrzSLheGpsfd6](https://maps.app.goo.gl/FRdSZrzSLheGpsfd6 \"smartCard-inline\")",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3262] G SNACK VENDO BUDGET BS8",
+                      "x": false
+                    },
+                    {
+                      "t": "[2375]  REFRESCOS VENDO SC-47",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            }
+          ]
+        },
+        {
+          "id": "30cw0g6",
+          "t": "JUEVES",
+          "min": false,
+          "cards": [
+            {
+              "id": "oj2s0hb",
+              "t": "[0401] C.S.C. MEDICAL GREEN SOLUTION",
+              "d": "CALLE ABIERTA DE 6H A 11H Y DE 14H A 17H. HAY UNA CÁMARA QUE MULTA",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3352] SNACK NECTA TWIST",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "9yjwwlr",
+              "t": "[0657] C.S.C. THE STASH",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3333] SNACK NECTA TWIST",
+                      "x": false
+                    },
+                    {
+                      "t": "[2376] REF VENDO S-C47",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "u68d842",
+              "t": "[0363] C.S.C. VORA EL MAR",
+              "d": "Si tiene configurado el servidor de correos se le hará llegar los datos al usuario. sino deberá proporcionárselo usted. El usuario es voraelmar y la contraseña: T3@p%zs1HAI#",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3331] SNACK NECTA VIVACE",
+                      "x": false
+                    },
+                    {
+                      "t": "[3243] SNACK VENDO G-SNACK BS8",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "2nchh18",
+              "t": "[0432] C.S.C. STATIC",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[2314] FRIO VENDO SVE 550",
+                      "x": false
+                    },
+                    {
+                      "t": "[3257] SNACK VENDO G-SNACK SD8",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "0a5xm2l",
+              "t": "[0594] C.S.C. SKY HIGH",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3274] SNACK NECTA TWIST",
+                      "x": false
+                    },
+                    {
+                      "t": "[3140] REF VENDO 5501",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "5r20awz",
+              "t": "[0641] CSC GREEN POISON",
+              "d": "`Si tiene configurado el servidor de correos se le hará llegar los datos al usuario. sino deberá proporcionárselo usted. El usuario es thegreenbrothers y la contraseña: T3@p44885`\n\n`thegreenbrothers`\n`T3@p44885`",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3214] SNACK NECTA SNAKKY",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "tn9f8nz",
+              "t": "[0684] C.S.C. KOMODO",
+              "d": "`El usuario es komodo y la contraseña: T3@p44012`",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3348] SNACK NECTA SNAKKY MAX",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "9q791r2",
+              "t": "[0624] C.S.C. GREEN STARS SABADELL",
+              "d": "MAQUINA REF EN PRICE HOLDING! PRECIOS EN MONEDERO NO CAMBIAR PRECIOS SIN CONSULTAR ANTES",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3294] SNACK NECTA TWIST",
+                      "x": false
+                    },
+                    {
+                      "t": "[2070] FRIO VENDO SVE 189-5",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            }
+          ]
+        },
+        {
+          "id": "h3ch97p",
+          "t": "VIERNES",
+          "min": false,
+          "cards": [
+            {
+              "id": "yjlbjua",
+              "t": "[0452] C.S.C. MANALI",
+              "d": "#abren a las 16:00",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[2356]  FRIO VENDO SVE 682",
+                      "x": false
+                    },
+                    {
+                      "t": "[3290]  SNACK NECTA TWIST",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "4t5rg5x",
+              "t": "[0355] C.S.C. STARGRASS",
+              "d": "`Si tiene configurado el servidor de correos se le hará llegar los datos al usuario. sino deberá proporcionárselo usted. El usuario es stargrass y la contraseña: T3@p56298`\n\n`stargrass `\n\n`T3@p56298`",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[2170] FRIO VENDO 544",
+                      "x": false
+                    },
+                    {
+                      "t": "[3282] SNACK NECTA JAZZ",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "t0x1t1g",
+              "t": "[0481] C.S.C. FULLA DE 7 PUNTES(NAYAX)",
+              "d": "Si tiene configurado el servidor de correos se le hará llegar los datos al usuario. sino deberá proporcionárselo usted. El usuario es fulldesetpuntes y la contraseña: T3@p09184",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3315] SNACK VENDO SD8",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            }
+          ]
+        },
+        {
+          "id": "wmszulf",
+          "t": "SABADOS",
+          "min": false,
+          "cards": [
+            {
+              "id": "337de3e",
+              "t": "[0692] C.S.C. MARINA 50(NAYAX)",
+              "d": "1,20€\nItaliano\nNo alcohol",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3346] 🍭SNACK NECTA TWIST",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "8stdg96",
+              "t": "[0420] C.S.C. GREEN PLANET CLUB(NAYAX)",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[2363]  REF VENDO SD47",
+                      "x": false
+                    },
+                    {
+                      "t": "[3253]  SNACK SANDEN VENDO SDX",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "nvnnhjc",
+              "t": "[0697] C.S.C. TERPY (MELODÍA)",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3350] SNACK NECTA MELODÍA IZQ",
+                      "x": false
+                    },
+                    {
+                      "t": "[3351] SNACK NECTA MELODÍA DER",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "dnewi7z",
+              "t": "[0479] C.S.C. DRAGON CLUB (EL AMANTE DE MARÍA) ***LECTURA MAQ REF CON LA PUERTA ABIERTA***",
+              "d": "#Heineken",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3259]  SNACK NECTA JAZZ FOOD ",
+                      "x": false
+                    },
+                    {
+                      "t": "[2334]  FRIO VENDO SVE 550",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "uw8r0g4",
+              "t": "[0599] C.S.C. CASANOVA K33(NAYAX)",
+              "d": "MORITZ7 CERVEZA HEINEKEN 1,30€ Y  1,30€# ",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3299] SNACK NECTA TWIST",
+                      "x": false
+                    },
+                    {
+                      "t": "[2360] REF VENDO SC-47",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            }
+          ]
+        },
+        {
+          "id": "pruivep",
+          "t": "PARKING CADA 2 SEMANAS",
+          "min": false,
+          "cards": [
+            {
+              "id": "6efr36d",
+              "t": "[0662] C.S.C. SUPERSKUNK",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3308]  SNACK NECTA TWIST",
+                      "x": false
+                    },
+                    {
+                      "t": "[2276]  REF VENDO GDRINK-6",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "u9sy23a",
+              "t": "[0683] C.S.C. NIRVANA",
+              "d": "Cerveza Damm, Galicia (1,50), resto 140, agua 120, tarifa snacks 150.",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3261]  SNACK NECTA SAMBA TOUCH",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "oogpk64",
+              "t": "[0422] C.S.C. ACME CLUB",
+              "d": "A PARTIR DE LAS 12H",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[2026] FRIO VENDO SVE 480-7",
+                      "x": false
+                    },
+                    {
+                      "t": "[3293] SNACK NECTA TWIST",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "oei8pdw",
+              "t": "[0680] C.S.C. FLY CLUB(NAYAX)",
+              "d": "**EN ESTE CLIENTE NO CAMBIAR PRODUCTO SIN LA APROBACIÓN DE MAYLEN, LA CLIENTA.**",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3342]  🍭SNACK NECTA TWIST ETL",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "rubnoi6",
+              "t": "[0613] C.S.C. SHIVA SANT CUGAT [ABREN A LAS 16H]",
+              "d": "NO TOCAR\nSi tiene configurado el servidor de correos se le hará llegar los datos al usuario. sino deberá proporcionárselo usted. El usuario es shiva y la contraseña: T3#pUaQ#ya7v\n",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[2295] FRÍO VENDO 680-10",
+                      "x": false
+                    },
+                    {
+                      "t": "[3146] SNACK VENDO SDX",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "1cu3gly",
+              "t": "[0703] C.S.C. THE CORNER",
+              "d": "Calle de Aribau, 71, Eixample, 08036 Barcelona\n[https://maps.app.goo.gl/WxLWxPac7tevHd2q7](https://maps.app.goo.gl/WxLWxPac7tevHd2q7 \"smartCard-inline\")",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3353] SNACK NECTA TWIST",
+                      "x": false
+                    },
+                    {
+                      "t": "[3239]  SNACK NECTA JAZZ",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "3w5xngk",
+              "t": "[0626] C.S.C. SAGO LEGO",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3198] SNACK VENDO SD8",
+                      "x": false
+                    },
+                    {
+                      "t": "[2304] REF VENDO 544",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "qs4vn05",
+              "t": "[0481] C.S.C. FULLA DE 7 PUNTES ***(COCA Y ZERO INTERNACIONAL)***",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3315] SNACK VENDO SD8",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "h5qfqg7",
+              "t": "[0678] C.S.C. DIAGONAL SOCIAL CLUB(NAYAX)",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3280]  SNACK NECTA JAZZ FOOD",
+                      "x": false
+                    },
+                    {
+                      "t": "[2033]  REF VENDO 189/5",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "rgm034a",
+              "t": "[0688] C.S.C. GAIA SENTMENAT",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3323] SNACK NECTA TWIST",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "es16umd",
+              "t": "fee blunt",
+              "d": "",
+              "l": [],
+              "ck": [],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "xpmpnir",
+              "t": "[0422] C.S.C. ACME CLUB",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[2026] FRIO VENDO SVE 480-7",
+                      "x": false
+                    },
+                    {
+                      "t": "[3293] SNACK NECTA TWIST",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            }
+          ]
+        },
+        {
+          "id": "diofde1",
+          "t": "TABLÓN DE ANUNCIOS",
+          "min": false,
+          "cards": [
+            {
+              "id": "mkp6ze7",
+              "t": "Por favor, verifiquen los lateros durante el proceso de carga y aseguren el ajuste según el 'par' establecido en la aplicación. Esta medida busca optimizar el stock y disminuir la carga de productos de baja rotación.",
+              "d": "",
+              "l": [],
+              "ck": [],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "7z13ydl",
+              "t": "GASOLINERA BENZOIL",
+              "d": "INDICAR KILÓMETROS E IMPORTE",
+              "l": [],
+              "ck": [
+                {
+                  "t": "Checklist",
+                  "x": false,
+                  "items": []
+                }
+              ],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "780b71w",
+              "t": "INSTÁLATE LA ULTIMA VERSIÓN ATENTO APP ADJUNTA",
+              "d": "https://drive.google.com/file/d/1bwIUhvu5DVS3fO4_B_phwSX2ZuHf3ei9/view?usp=sharing",
+              "l": [],
+              "ck": [],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "i514oez",
+              "t": "☕☕NUEVA MÁQUINA CAFÉ MELITTA ☕☕💥💥",
+              "d": "PARA DISFRUTAR 🥳 AL MÁXIMO DE LA NUEVA MÁQUINA DE CAFÉ MELITTA ES IMPORTARTE QUE SIGAMOS UNAS SENCILLAS NORMAS.✍\n\n1/ ANTES DE CADA USO COMPROBAD QUE HAY AGUA EN EL DEPÓSITO. ÚNICAMENTE PONER AGUA BEZOYA. ✔️\n\n2/ VACIAR GOTERO Y PASTILLAS ASIDUAMENTE. ✔️\n\n3/ LIMPIAR BOQUILLAS NORMALMENTE. ✔️\n\n4/ EN CASO DE QUERER LECHE, DESPUÉS DE SU USO, VOLVER A DEJAR EL TERMO EN LA NEVERA Y HACER EL LAVADO DEL SISTEMA QUE INDICA LA MÁQUINA DESPUÉS DE SERVIR LA LECHE. LAVAR EL TERMO DE LECHE REGULARMENTE. ✔️\n\n5/ EL COMPARTIMENTO IZQUIERDO SUPERIOR ES PARA CAFÉ CAFEINADO Y EL DERECHO PARA CAFÉ DESCAFEINADO. ✔️\n\n6/ HAY UN RECIPIENTE HERMÉTICO PARA GUARDAR LOS GRANOS DE CAFÉ QUE ECHAREMOS A LA MELITTA.\n\n7/ CON EL OBJETIVO DE NO GENERAR RESIDUOS, POR FAVOR, TRAED UNA TAZA/TERMO DE CASA. NO UTILICÉIS VASOS DE PLÁSTICO NI DE CARTÓN. ✔️\n\n8/ DESCÁRGATE LA APP PARA PEDIR Y PERSONALIZAR TU BEBIDA FAVORITA\nDESDE TU MÓVIL. ✔️ \n\nhttps://play.google.com/store/apps/details?id=de.atino.melitta.connect\n\n9/ TENÉIS SIROPE DE CARAMELO PARA HACEROS UN \"CARAMEL MACCHIATO\"\n\n10/ SI TENÉIS O ENCONTRÁIS UNA MESA ADECUADA PARA HACER EL COFFEE CORNER Y QUE NOS QUEPAN LAS TAZAS, AZUCARILLOS, ETC SERÁ BIENVENIDA.\n\n🙏🏻 POR FAVOR, DEJA LA MÁQUINA COMO QUIERES ENCONTRÁRTELA Y DISFRUTA DE TU PAUSA DE CAFÉ.",
+              "l": [],
+              "ck": [],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "wi2ssab",
+              "t": "LEYENDA",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "KEYWORDS",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "✍️\"AVERIA\" \"NÚMERO DE MÁQUINA\" EN EL INICIO DEL CHAT 💬 PARA NOTIFICAR UNA AVERIA AL SERVICIO TÉCNICO",
+                      "x": false
+                    },
+                    {
+                      "t": "✍️\"COMISION\" EN EL INICIO DEL CHAT 💬 CUANDO EL CLIENTE LA RECLAMA",
+                      "x": false
+                    },
+                    {
+                      "t": "✍️\"QUEJA\" EN EL INICIO DEL CHAT 💬 CUANDO EL CLIENTE MUESTRA UNA QUEJA GENERALIZADA",
+                      "x": false
+                    },
+                    {
+                      "t": "✍️\"URGENTE\" EN EL INICIO DEL CHAT 💬 CUANDO VERDADERAMENTE ES UN TEMA PRIORITARIO Y SE HA DE HACER DE INMEDIATO.",
+                      "x": false
+                    },
+                    {
+                      "t": "LOS CONTADORES SE ANOTAN ✍️ EN EL CHAT 💬 COMO PUEDES VER EN EL EJEMPLO. *NÚMERO DE MÁQUINA= CONTADOR*",
+                      "x": false
+                    },
+                    {
+                      "t": "✍️\"NO VISITADO\" EN EL INICIO DEL CHAT 💬 CUANDO NO HAS PODIDO REALIZAR LA VISITA AL CLIENTE. EXPLICA LOS MOTIVOS.",
+                      "x": false
+                    },
+                    {
+                      "t": "✍️\"CAMBIO\" EN EL INICIO DEL CHAT 💬 COMO PUEDES VER EN EL EJEMPLO. *NÚMERO DE BOLSAS X MONEDA*",
+                      "x": false
+                    },
+                    {
+                      "t": "⚠️ AUNQUE PODEMOS AMPLIAR LA INFORMACION A TRAVES DE IMAGEN, NOTA DE VOZ Y VIDEO A TRAVÉS DE WHATSAPP ES **IMPRESCINDIBLE** QUE PRIMERO LO HAGAMOS EN TRELLO YA QUE HAY PROCESOS AUTOMATIZADOS. ⚠️ Y LUEGO PODAMOS AMPLIAR INFORMACIÓN AL RESPONSABLE TÉCNICO, JORDI.",
+                      "x": false
+                    },
+                    {
+                      "t": "✍️\"DEVOLUCION\" 💰  INICIO DEL CHAT 💬 COMO PUEDES VER EN EL EJEMPLO. ⚠️*RECUERDA TRAER EL JUSTIFICANTE*⚠️",
+                      "x": false
+                    },
+                    {
+                      "t": "✍️\"NO RECAUDADO\"\"NÚMERO DE MÁQUINA\" EN EL INICIO DEL CHAT 💬 CUANDO NO RECAUDAMOS UNA DETERMINADA MÁQUINA.",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "jwo4cyj",
+              "t": "DESCARGA APP ATENTO",
+              "d": "Hemos de instalar esta App en nuestro móvil para capturar datos de las máquinas que tienen TPV.\nLas claves de acceso son las siguientes.\nUsuario:\nContraseña:\nAdjunto encontrarás un vídeo que explica cómo hacer la captura de datos.",
+              "l": [],
+              "ck": [],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "15si5yj",
+              "t": "TÉRMINOS Y CONDICIONES CONFIDENCIALES DE USO",
+              "d": "El uso de este tablero conlleva la aceptación de los siguientes puntos.\n1) La información contenida en este tablero y sus archivos adjuntos van dirigidos exclusivamente a los usuarios del presente tablero y es propiedad exclusivamente de C.S.C. Unattended Green Services S.L.U.\n2) Toda la información cedida en dicho tablero reviste de carácter confidencial y está sometida a secreto profesional.\n3) Los datos proporcionados se conservarán mientras se mantenga la relación comercial/laboral y queda terminantemente prohibido la cesión de los datos a terceros durante o después de dicha relación.\n4) La violación de dicha normativa interna respecto a la información confidencial y el secreto empresarial conlleva una violación que reviste daños y perjuicios empresariales.",
+              "l": [],
+              "ck": [],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "ipztec4",
+              "t": "ORDEN DE EJECUCIÓN EN LA REPOSICIÓN: INCIDENCIAS>CAMBIO>RECAUDAR>TOMAR CONTADORES/CAPTURA>REPONER>LIMPIAR",
+              "d": "",
+              "l": [],
+              "ck": [],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "vj6wtsu",
+              "t": "LAS HUCHAS DE LOS BILLETEROS NUNCA SE EXTRAEN. SE RECAUDAN POR LA VENTANILLA.",
+              "d": "",
+              "l": [],
+              "ck": [],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "05wxiv6",
+              "t": "CADA DÍA AL INICIAR LA JORNADA INICIARLIZAR LA APLICACIÓN TRELLO PARA QUE CARGUE LOS DATOS",
+              "d": "",
+              "l": [],
+              "ck": [],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "2yq2zqt",
+              "t": "EN TODAS LAS MÁQUINAS CON TPV VERÁS UN BOTÓN ROJO DE LA PLACA CPU QUE CONTROLA EL TPV. DESPUÉS DE PONER CAMBIO Y RECAUDAR HAS DE DARLE UNA PULSACIÓN CORTA AL BOTÓN ROJO PARA QUE TRANSMITA LOS DATOS.",
+              "d": "",
+              "l": [],
+              "ck": [],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "e35y0wp",
+              "t": "SOLICITUD DE DÍAS LIBRES/VACACIONES",
+              "d": "",
+              "l": [],
+              "ck": [],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "0ief6pc",
+              "t": "VISITA IMPORTANTE",
+              "d": "",
+              "l": [],
+              "ck": [],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "20d5v0k",
+              "t": "VISITA REPETICIÓN",
+              "d": "EN LA VISITA REPOSICIÓN NO RECAUDA. SE REPONE CON MÁS ATENCIÓN LOS PRODUCTOS PRINCIPALES PERO EL RESTO DE PRODUCTOS NO HAN DE ROMPER STOCK PARA LA PRÓXIMA VISITA. SI ES NECESARIO SE PONE CAMBIO. NO SE COGE CONTADORES.",
+              "l": [],
+              "ck": [],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "er0uhoh",
+              "t": "CLIENTES CADA 2 SEMANAS",
+              "d": "SE VISITA SEMANA SÍ Y SEMANA NO.",
+              "l": [],
+              "ck": [
+                {
+                  "t": "Checklist",
+                  "x": false,
+                  "items": []
+                }
+              ],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "5f0gi7h",
+              "t": "COMISIÓN. CUANDO EL CLIENTE RECLAMA LA COMISIÓN AUTOMÁTICAMENTE HACER LAS FOTOS DEL \"SALES\" DE CADA MÁQUINA Y ENVIÁRMELA. ANOTAD TAMBIÉN EN EL CHAT DE LA TARJETA LA PALABRA COMISIÓN.",
+              "d": "",
+              "l": [],
+              "ck": [],
+              "cv": "",
+              "done": false
+            }
+          ]
+        },
+        {
+          "id": "bl1u8jk",
+          "t": "LIMPIEZA VEHÍCULO 3004 MYB",
+          "min": false,
+          "cards": [
+            {
+              "id": "xg9xue0",
+              "t": "LIMPIEZA  EXTERIOR-INTERIOR",
+              "d": "CUANDO SE EJECUTE LA LIMPIEZA SEMANAL ESCRIBIR “LIMPIEZAOK”",
+              "l": [],
+              "ck": [],
+              "cv": "",
+              "done": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "z0qczf2",
+      "name": "JERO",
+      "fav": false,
+      "bg": "",
+      "cols": [
+        {
+          "id": "qme632m",
+          "t": "LUNES",
+          "min": false,
+          "cards": [
+            {
+              "id": "o4k3zfi",
+              "t": "[0671] C.S.C. STONE AGE BCN",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3297] SNACK NECTA TWIST",
+                      "x": false
+                    },
+                    {
+                      "t": "[2214] REF VENDO 544",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "pi3nxyf",
+              "t": "[0685] C.S.C. LA SIESTECITA",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3281]  🍭SNACK NECTA TWIST",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "w0oii5u",
+              "t": "[0700] C.S.C. CHILL ZONE (NAYAX)",
+              "d": "[Carrer de Rosés, 33, Sants-Montjuïc, 08028 Barcelona](https://www.google.com/maps/place//data=!4m2!3m1!1s0x12a499a86968db1b:0x5326456f3cea568?sa=X&ved=1t:8290&ictx=111 \"‌\")",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3197]  SNACK VENDO G-SNACK BS8",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "yyjbkpd",
+              "t": "[0628] C.S.C. CLUB 67 BCN (MAQUINA REF EN PRICE HOLDING! PRECIOS EN MONEDERO NO CAMBIAR PRECIOS SIN CONSULTAR ANTES)[ PONER COLA ZERO]",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3317] SNACK BUDGET BS8",
+                      "x": false
+                    },
+                    {
+                      "t": "[2073] REF VENDO 217/6",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "qvh7bgb",
+              "t": "[0674] C.S.C. RINCON DE MARIA (REF ASEGURARSE DE QUE LA MAQ DE REF SE 1UEDA OPERARIVA Y NO EN PUERTA ABIERTA)",
+              "d": "Bailen, 123 BCN",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3284] SNACK NECTA JAZZ",
+                      "x": false
+                    },
+                    {
+                      "t": "[2364] REF VENDO M-C48",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "qmkjd5x",
+              "t": "[0631] CUBE BCN WEED CLUB(NAYAX)",
+              "d": "‌\n\n‌",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3328] SNACK NECTA TWIST",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "si8d8a6",
+              "t": "[0696] C.S.C. VALENCIA(NAYAX)",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3301] SNACK NECTA TWIST",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            }
+          ]
+        },
+        {
+          "id": "8nzeaji",
+          "t": "MARTES",
+          "min": false,
+          "cards": [
+            {
+              "id": "g4edhns",
+              "t": "[0586] C.S.C. EASY TIMES",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3288]  SNACK NECTA JAZZ FOOD",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "2w6nd06",
+              "t": "[0703] C.S.C. THE CORNER",
+              "d": "Calle de Aribau, 71, Eixample, 08036 Barcelona\n[https://maps.app.goo.gl/WxLWxPac7tevHd2q7](https://maps.app.goo.gl/WxLWxPac7tevHd2q7 \"smartCard-inline\")",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3353] SNACK NECTA TWIST",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "y9pm2fz",
+              "t": "[0629] C.S.C. BCN KUSH(NAYAX)",
+              "d": "‌#ATENCION KINDER BUENO BOANCO Y KINDER BUENO NEGRO. NO MEZCLAR Y RESPETAR.\n\n‌",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[2371] REF VENDO XS-C36",
+                      "x": false
+                    },
+                    {
+                      "t": "[3319] SNACK NECTA TWIST",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "5s0pfgc",
+              "t": "[0656] C.S.C. MARGREEN",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3318] SNACK NECTA TWIST",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "33j96yw",
+              "t": "[0388] C.S.C. TWISTER (EL PLAER DE LA VIDA) ***(HACER LA LECTURA DEX CON LA PUERTA ABIERTA) ***",
+              "d": "#ESTATHÉ DE LIMÓN EN MÁQUINA DE REF, DE NARANJA EN MÁQUINA DE SNACK.",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3252]  SNACK VENDO G-SNACK BS8",
+                      "x": false
+                    },
+                    {
+                      "t": "[2031]  FRIO VENDO 682",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "o47y7w1",
+              "t": "[0423] C.S.C. NOVA 420",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3340] SNACK NECTA TWIST",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "m6dnn02",
+              "t": "[0597] ASSOC. PLANES ALTERNATIVOS SNACK",
+              "d": "PONER BAIOCHI EN VEZ DE RINGO EN CUANTO PODAMOS",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3275] SNACK VENDO BS8",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            }
+          ]
+        },
+        {
+          "id": "56kwy1d",
+          "t": "MIÉRCOLES",
+          "min": false,
+          "cards": [
+            {
+              "id": "mye0dkp",
+              "t": "[0235] C.S.C. EXCLUSIVE(NAYAX)",
+              "d": "Si tiene configurado el servidor de correos se le hará llegar los datos al usuario. sino deberá proporcionárselo usted. El usuario es exclusive y la contraseña: T3@pT#3Oc+G2",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3156]  SNACK VENDO G-SNACK SDX",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "4j7xpqs",
+              "t": "[0678] C.S.C. DIAGONAL SOCIAL CLUB(NAYAX)",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3280]  SNACK NECTA JAZZ FOOD",
+                      "x": false
+                    },
+                    {
+                      "t": "[2033]  REF VENDO 189/5",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "snemoxx",
+              "t": "[0627] C.S.C. SPACED BCN(NAYAX)",
+              "d": "`Si tiene configurado el servidor de correos se le hará llegar los datos al usuario. sino deberá proporcionárselo usted. El usuario es spaced y la contraseña: T3@p47382`\n\n‌\n\nspaced\n`T3@p47382`",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3316] SNACK BUDGET BS8",
+                      "x": false
+                    },
+                    {
+                      "t": "[2215] REF VENDO",
+                      "x": false
+                    }
+                  ]
+                },
+                {
+                  "t": "REVISION NAYAX SNACK",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "CANAL 46 PAR A 9? A TENIDO 4 FALLOS SEGUIDOS. PROBAR.",
+                      "x": false
+                    },
+                    {
+                      "t": "CANAL 48 DONETES NO PUEDE IR EN ESPIRAL DE 7 O CAMBIAR PAR",
+                      "x": false
+                    },
+                    {
+                      "t": "CANALES 51 Y 53 PAR A 6?",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "zxown3q",
+              "t": "[0084] C.S.C. MR TAU (A PARTIR 14h)",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3355] SNACK NECTA GUSTO",
+                      "x": false
+                    },
+                    {
+                      "t": "[2367] REF VENDO XC-46",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "fngbvyc",
+              "t": "[0532] C.S.C. CLUB FUMADORES CLOT(NAYAX)",
+              "d": "#MUY IMPORTANTE. ASEGURARSE QUE LA MAQUINA DE REF AL CERRARLA INDICA LA TEMPERATURA Y NO \"CASH Y SALE\". MAQUINA SNACK PONER MUY BIEN LAS BANDEJAS. VARIAS VECES LAS BANDEJAS NO ESTÁN BIEN COLOCADAS.",
+              "l": [],
+              "ck": [],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "ij9jrwz",
+              "t": "[0564] C.S.C. CANNAPOLIS",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3188]  SNACK VENDO SDX",
+                      "x": false
+                    },
+                    {
+                      "t": "[3289]  NECTA TWIST",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "k78swt8",
+              "t": "[0358] C.S.C. CITY BLAU",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "José 685387764",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "9yqx1sx",
+              "t": "[0644] C.S.C. GAIA 427 (ANT APOLLO 27)",
+              "d": "IMPORTANTE LLENAR ESTRELLA GALICIA. \n\nSi tiene configurado el servidor de correos se le hará llegar los datos al usuario. sino deberá proporcionárselo usted. El usuario es apollo27 y la contraseña: T3@p66486",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3345] SNACK NECTA TWIST",
+                      "x": false
+                    },
+                    {
+                      "t": "[1151] CAFÉ AZKOYEN VITRO S1",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": false
+            }
+          ]
+        },
+        {
+          "id": "iji6ywy",
+          "t": "JUEVES",
+          "min": false,
+          "cards": [
+            {
+              "id": "fs5un2l",
+              "t": "[0336] C.S.C. CANNABIO",
+              "d": "PENDIENTES DE REVISAR SIEMPRE FECHAS DE CADUCIDAD PASTAS MAXIMO 8 UNIDADES ✅️",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3279] SNACK NECTA JAZZ FOOD",
+                      "x": false
+                    },
+                    {
+                      "t": "[2332]  FRIO VENDO SVE 550",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "tz6kpa2",
+              "t": "[0628] C.S.C. CLUB 67 BCN ***(HACER LA LECTURA DEX SNACK CON LA PUERTA ABIERTA)*** (MAQUINA REF EN PRICE HOLDING! PRECIOS EN MONEDERO NO CAMBIAR PRECIOS SIN CONSULTAR ANTES)",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3317] SNACK BUDGET BS8",
+                      "x": false
+                    },
+                    {
+                      "t": "[2073] REF VENDO 217/6",
+                      "x": false
+                    }
+                  ]
+                },
+                {
+                  "t": "REVISION NAYAX SNACK",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "CANAL 55 Y 57 PAR A 12?",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "lp97mst",
+              "t": "[0631] CUBE BCN WEED CLUB(NAYAX)",
+              "d": "‌\n\n‌",
+              "l": [],
+              "ck": [
+                {
+                  "t": "REVISION NAYAX SNACK",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "CANAL 11 PAR A 9?",
+                      "x": false
+                    },
+                    {
+                      "t": "CANAL 13 PAR A 10?",
+                      "x": false
+                    },
+                    {
+                      "t": "CANAL 20 PONER PISTACHOS A 1.50 € Y AJUSTAR PAR",
+                      "x": false
+                    },
+                    {
+                      "t": "CANAL 21 PAR A 5?",
+                      "x": false
+                    },
+                    {
+                      "t": "CANAL 22 FALTA NUMERO, OREO YA NO HAY. CAMBIAR POR BAIOCHI",
+                      "x": false
+                    }
+                  ]
+                },
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3328] SNACK NECTA TWIST",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "kviao6z",
+              "t": "[0592] C.S.C. ASOCIACIÓN KYO(NAYAX)",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3303]  SNACK NECTA TWIST",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "4xyhyml",
+              "t": "[0671] C.S.C. STONE AGE BCN(NAYAX)",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3297] SNACK NECTA TWIST",
+                      "x": false
+                    },
+                    {
+                      "t": "[2214] REF VENDO 544",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "q9525dx",
+              "t": "[0459] C.S.C. MOON ROCK [SIEMPRE PATATA JAMON].(NAYAX)",
+              "d": "Poner 2 carriles de Donetes como en la foto antigua",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[2339]  FRIO VENDO SVE 550",
+                      "x": false
+                    },
+                    {
+                      "t": "[3291]  SNACK NECTA TWIST",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "aavfa12",
+              "t": "[0463] C.S.C. SATPATH(NAYAX)",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3256]  SNACK VENDO G-SNACK BS8",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            }
+          ]
+        },
+        {
+          "id": "fv6l0lm",
+          "t": "VIERNES",
+          "min": false,
+          "cards": [
+            {
+              "id": "4ffsopv",
+              "t": "[0696] C.S.C. VALENCIA(NAYAX) ",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3301] SNACK NECTA TWIST",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "0ww8ytr",
+              "t": "[0597] ASSOC. PLANES ALTERNATIVOS SNACK",
+              "d": "PONER BAIOCHI EN VEZ DE RINGO EN CUANTO PODAMOS",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3275] SNACK VENDO BS8",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "aq2h6zw",
+              "t": "[0700] C.S.C. CHILL ZONE (NAYAX)",
+              "d": "[Carrer de Rosés, 33, Sants-Montjuïc, 08028 Barcelona](https://www.google.com/maps/place//data=!4m2!3m1!1s0x12a499a86968db1b:0x5326456f3cea568?sa=X&ved=1t:8290&ictx=111 \"‌\")",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3197]  SNACK VENDO G-SNACK BS8",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "3xubeh1",
+              "t": "[0629] C.S.C. BCN KUSH(NAYAX)",
+              "d": "‌#ATENCION KINDER BUENO BOANCO Y KINDER BUENO NEGRO. NO MEZCLAR Y RESPETAR.\n\n‌",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[2371] REF VENDO XS-C36",
+                      "x": false
+                    },
+                    {
+                      "t": "[3319] SNACK NECTA TWIST",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            }
+          ]
+        },
+        {
+          "id": "4lxw8z6",
+          "t": "PARKING CADA 2 SEMANAS",
+          "min": false,
+          "cards": [
+            {
+              "id": "8d1qgfw",
+              "t": "Por favor, verifiquen los lateros durante el proceso de carga y aseguren el ajuste según el 'par' establecido en la aplicación. Esta medida busca optimizar el stock y disminuir la carga de productos de baja rotación.",
+              "d": "",
+              "l": [],
+              "ck": [],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "wcvgizh",
+              "t": "[0633] C.S.C. HOLLYWEED BCN(NAYAX)",
+              "d": "\\#ATENCION\n\n`Si tiene configurado el servidor de correos se le hará llegar los datos al usuario. sino deberá proporcionárselo usted. El usuario es hollyweed y la contraseña: T3@p04031`",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3326] SNACK NECTA TWIST",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "vebm85i",
+              "t": "[0685] C.S.C. LA SIESTECITA",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3281]  🍭SNACK NECTA TWIST",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "hjzkg62",
+              "t": "[0425] C.S.C. ICC (ICE CANNAM CLUB)(NAYAX)",
+              "d": "NO TOCAR\n\nSi tiene configurado el servidor de correos se le hará llegar los datos al usuario. sino deberá proporcionárselo usted. El usuario es icc y la contraseña: T3#p4WkMm#Ro",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[2365]  FRIO VENDO S-C47",
+                      "x": false
+                    },
+                    {
+                      "t": "[3309]  SNACK VENDO SDX",
+                      "x": false
+                    },
+                    {
+                      "t": "[1152]  CAFÉ NECTA CONCERTO",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "mq7hlky",
+              "t": "[0444] C.S.C. SMOKE SIGNALS ***(HACER LA LECTURA DEX SNACK CON LA PUERTA ABIERTA)***",
+              "d": "BAJOS\nTEL DEL PRESIDENTE: 6850108538ñ",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3204]  SNACK FRIO BUDGET",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "z8d2msz",
+              "t": "[0333] C.S.C. G-13 ***(HACER LA LECTURA DEX SNACK CON LA PUERTA ABIERTA)***",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3250]  SNACK VENDO G-SNACK BS8",
+                      "x": false
+                    },
+                    {
+                      "t": "[2275]  FRIO VENDO SVE 609",
+                      "x": false
+                    }
+                  ]
+                },
+                {
+                  "t": "REVISION NAYAX SNACK",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "CANAL 37 PAR A 6?",
+                      "x": false
+                    },
+                    {
+                      "t": "CANAL 44 PAR A 6?",
+                      "x": false
+                    },
+                    {
+                      "t": "CANAL 67 PAR A 11?",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "qewqqw6",
+              "t": "[0631] CUBE BCN WEED CLUB(NAYAX)",
+              "d": "‌\n\n‌",
+              "l": [],
+              "ck": [
+                {
+                  "t": "REVISION NAYAX SNACK",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "CANAL 11 PAR A 9?",
+                      "x": false
+                    },
+                    {
+                      "t": "CANAL 13 PAR A 10?",
+                      "x": false
+                    },
+                    {
+                      "t": "CANAL 20 PONER PISTACHOS A 1.50 € Y AJUSTAR PAR",
+                      "x": false
+                    },
+                    {
+                      "t": "CANAL 21 PAR A 5?",
+                      "x": false
+                    },
+                    {
+                      "t": "CANAL 22 FALTA NUMERO, OREO YA NO HAY. CAMBIAR POR BAIOCHI",
+                      "x": false
+                    }
+                  ]
+                },
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3328] SNACK NECTA TWIST",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "xmoyfvj",
+              "t": "[0628] C.S.C. CLUB 67 BCN ***(HACER LA LECTURA DEX SNACK CON LA PUERTA ABIERTA)*** (MAQUINA REF EN PRICE HOLDING! PRECIOS EN MONEDERO NO CAMBIAR PRECIOS SIN CONSULTAR ANTES)",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3317] SNACK BUDGET BS8",
+                      "x": false
+                    },
+                    {
+                      "t": "[2073] REF VENDO 217/6",
+                      "x": false
+                    }
+                  ]
+                },
+                {
+                  "t": "REVISION NAYAX SNACK",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "CANAL 55 Y 57 PAR A 12?",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            }
+          ]
+        },
+        {
+          "id": "ljenzul",
+          "t": "TABLÓN DE ANUNCIOS",
+          "min": false,
+          "cards": [
+            {
+              "id": "hod4eg0",
+              "t": "GASOLINERA BENZOIL",
+              "d": "INDICAR KILÓMETROS E IMPORTE",
+              "l": [],
+              "ck": [],
+              "cv": "",
+              "done": false
+            }
+          ]
+        },
+        {
+          "id": "bfwju0x",
+          "t": "LIMPIEZA VEHICULO 9604 LYW",
+          "min": false,
+          "cards": [
+            {
+              "id": "wt9cu2y",
+              "t": "LIMPIEZA EXTERIOR-INTERIOR",
+              "d": "CUANDO SE EJECUTE LA LIMPIEZA SEMANAL ESCRIBIR “LIMPIEZAOK”",
+              "l": [],
+              "ck": [],
+              "cv": "",
+              "done": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fflyfsg",
+      "name": "YASMAR",
+      "fav": false,
+      "bg": "",
+      "cols": [
+        {
+          "id": "m28v6di",
+          "t": "LUNES",
+          "min": false,
+          "cards": [
+            {
+              "id": "0yo0o1d",
+              "t": "[0681] C.S.C. AREA 420 BCN (NAYAX)",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3343]  🍭SNACK NECTA TWIST ETL",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "bo3cthg",
+              "t": "[0420] C.S.C. GREEN PLANET CLUB(NAYAX)",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[2363]  REF VENDO SD47",
+                      "x": false
+                    },
+                    {
+                      "t": "[3253]  SNACK SANDEN VENDO SDX",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "rtm175n",
+              "t": "[0522] C.S.C. EXOTIC HOUSE(NAYAX)",
+              "d": "`Si tiene configurado el servidor de correos se le hará llegar los datos al usuario. sino deberá proporcionárselo usted. El usuario es exotic y la contraseña: T3@p11474`\n\n`exotic`\n\n`T3@p11474`",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3295]  SNACK NECTA TWIST",
+                      "x": false
+                    }
+                  ]
+                },
+                {
+                  "t": "REVISION NAYAX SNACK",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "CANAL 20 BAJAR PAR",
+                      "x": true
+                    },
+                    {
+                      "t": "CANAL 30 A 32 PAR A 6",
+                      "x": true
+                    },
+                    {
+                      "t": "CANAL 50 A 52 PAR A 5",
+                      "x": true
+                    },
+                    {
+                      "t": "CANAL 60 A 65 PAR A 6",
+                      "x": true
+                    },
+                    {
+                      "t": "CANAL 72 A 75 PAR A 6",
+                      "x": true
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "yoi2nat",
+              "t": "[0697] C.S.C. TERPY(NAYAX)",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3350] SNACK NECTA MELODÍA IZQ",
+                      "x": false
+                    },
+                    {
+                      "t": "[3351] SNACK NECTA MELODÍA DER",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "kw85hci",
+              "t": "[0616] C.S.C. RELAX BCN(NAYAX)",
+              "d": "Si tiene configurado el servidor de correos se le hará llegar los datos al usuario. sino deberá proporcionárselo usted. El usuario es relax y la contraseña: T3@p73441",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3312] SNACK VENDO SD8",
+                      "x": false
+                    }
+                  ]
+                },
+                {
+                  "t": "Checklist",
+                  "x": false,
+                  "items": []
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "ryxylu4",
+              "t": "[0481] C.S.C. FULLA DE 7 PUNTES(NAYAX)",
+              "d": "Si tiene configurado el servidor de correos se le hará llegar los datos al usuario. sino deberá proporcionárselo usted. El usuario es fulldesetpuntes y la contraseña: T3@p09184",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3315] SNACK VENDO SD8",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "ewhwgjw",
+              "t": "[0680] C.S.C. FLY CLUB(NAYAX)",
+              "d": "**EN ESTE CLIENTE NO CAMBIAR PRODUCTO SIN LA APROBACIÓN DE MAYLEN, LA CLIENTA.**",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3342]  🍭SNACK NECTA TWIST ETL",
+                      "x": false
+                    }
+                  ]
+                },
+                {
+                  "t": "Checklist",
+                  "x": false,
+                  "items": []
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "ep017m1",
+              "t": "[0503] C.S.C. LUJO VERDE",
+              "d": "NO TOCAR\nSi tiene configurado el servidor de correos se le hará llegar los datos al usuario. sino deberá proporcionárselo usted. El usuario es lujoverde y la contraseña: T3@p39401",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3298]  SNACK NECTA JAZZ TWIST",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            }
+          ]
+        },
+        {
+          "id": "ra4a53d",
+          "t": "MARTES",
+          "min": false,
+          "cards": [
+            {
+              "id": "v1qsxi0",
+              "t": "[0457] C.S.C. GREEN GRASS(NAYAX)",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3268]  SNACK NECTA JAZZ FOOD ",
+                      "x": false
+                    },
+                    {
+                      "t": "[2269]  FRIO VENDO VF 544",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "in7x27f",
+              "t": "[0599] C.S.C. CASANOVA K33(NAYAX)",
+              "d": "MORITZ7 CERVEZA HEINEKEN 1,30€ Y  1,30€# ",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3299] SNACK NECTA TWIST",
+                      "x": false
+                    },
+                    {
+                      "t": "[2360] REF VENDO SC-47",
+                      "x": false
+                    }
+                  ]
+                },
+                {
+                  "t": "Checklist",
+                  "x": false,
+                  "items": []
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "tedokkm",
+              "t": "[0660] C.S.C. ROLLING STONED",
+              "d": "De todo alcohol incluido.",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3356] SNACK NECTA GUSTO",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "0mnldol",
+              "t": "[0359] C.S.C. GOTIC (4:20)(NAYAX)",
+              "d": "`Si tiene configurado el servidor de correos se le hará llegar los datos al usuario. sino deberá proporcionárselo usted. El usuario es gotic y la contraseña: T3@p34225`",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[1146]  CAFE NECTA KIKKO",
+                      "x": false
+                    },
+                    {
+                      "t": "[3227]  SNACK VENDO G-SNACK SD8",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "ppd2b1x",
+              "t": "[0695] C.S.C. THREE MONKEYS CLUB ***(HACER LA LECTURA DEX CON LA PUERTA ABIERTA) ***",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3263] 🍭SNACK VENDO BUDGET BS8",
+                      "x": false
+                    },
+                    {
+                      "t": "[2092]  REFRESCOS VENDO VDI 544",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "ac7e9cc",
+              "t": "[0479] C.S.C. DRAGON CLUB  SOLO LA DE SNACK",
+              "d": "#Heinieken",
+              "l": [],
+              "ck": [
+                {
+                  "t": "REVISION NAYAX SNACK",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "CANAL 25 PAR A 9?",
+                      "x": true
+                    },
+                    {
+                      "t": "CANAL 32, 34 BAJAR PAR",
+                      "x": true
+                    },
+                    {
+                      "t": "CANAL 72 A 75 PAR A 6",
+                      "x": true
+                    }
+                  ]
+                },
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3259]  SNACK NECTA JAZZ FOOD ",
+                      "x": false
+                    },
+                    {
+                      "t": "[2334]  FRIO VENDO SVE 550",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "vbjjzl0",
+              "t": "[0333] C.S.C. G-13 (NAYAX)",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3250]  SNACK VENDO G-SNACK BS8",
+                      "x": false
+                    },
+                    {
+                      "t": "[2275]  FRIO VENDO SVE 609",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            }
+          ]
+        },
+        {
+          "id": "vnz0801",
+          "t": "MIÉRCOLES",
+          "min": false,
+          "cards": [
+            {
+              "id": "4unqq6u",
+              "t": "[0692] C.S.C. MARINA 50 (NAYAX)",
+              "d": "1,20€\nItaliano\nNo alcohol\nLa nevera llevarla a fly",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3346] 🍭SNACK NECTA TWIST",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "47vwzn5",
+              "t": "[0419] C.S.C. BLUNTED(NAYAX)",
+              "d": "CERVEZA",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3300] SNACK NECTA TWIST",
+                      "x": false
+                    },
+                    {
+                      "t": "[2254] REF VENDO 544",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "q83wqhl",
+              "t": "[ 0349] C.S.C. DEE DEE CLUB",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[2274]  FRIO VENDO G-DRINK 9",
+                      "x": false
+                    },
+                    {
+                      "t": "[3063]  SNACK NECTA SNAKKY",
+                      "x": false
+                    },
+                    {
+                      "t": "[1076]  CAFÉ NECTA BRIO 3 (grano)",
+                      "x": true
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "esktufx",
+              "t": "[0690] C.S.C. PLANTA SANTA",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3337] SNACK NECTA TWIST",
+                      "x": false
+                    }
+                  ]
+                },
+                {
+                  "t": "REVISION NAYAX SNACK",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "CANAL 32 Y 33 PAR 8 o 9",
+                      "x": false
+                    },
+                    {
+                      "t": "canal 40 y 41 par a 4?",
+                      "x": false
+                    },
+                    {
+                      "t": "CANAL 50,51,60,61,72,73,74,75 PAR A 6",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "wqr8gv4",
+              "t": "[0639] C.S.C. LA ORQUESTA(NAYAX) ",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3332] SNACK NECTA TWIST",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "gn9ejtp",
+              "t": "[0481] C.S.C. FULLA DE 7 PUNTES(NAYAX)",
+              "d": "Si tiene configurado el servidor de correos se le hará llegar los datos al usuario. sino deberá proporcionárselo usted. El usuario es fulldesetpuntes y la contraseña: T3@p09184",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3315] SNACK VENDO SD8",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "295xco5",
+              "t": "[0682] C.S.C. WEEDY WONKA(NAYAX)",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3344]  🍭SNACK NECTA TWIST",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "jtj3yz7",
+              "t": "[0357] C.S.C. HERBALIST",
+              "d": "14:00 a 23:00",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3237]  SNACK VENDO BUDGED",
+                      "x": false
+                    },
+                    {
+                      "t": "[2294]  REF VENDO 480/7",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            }
+          ]
+        },
+        {
+          "id": "trrfoqf",
+          "t": "JUEVES",
+          "min": false,
+          "cards": [
+            {
+              "id": "ocxk0xq",
+              "t": "[0658] C.S.C. MUNTANER 10(NAYAX)",
+              "d": "#CÁPSULA LAVAZZA",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3334] SNACK NECTA TWISTaveria",
+                      "x": false
+                    }
+                  ]
+                },
+                {
+                  "t": "REVISION NAYAX SNACK",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "CANALES 20 Y 21 BAJAR PAR",
+                      "x": true
+                    },
+                    {
+                      "t": "CANAL 25 PAR A 5?",
+                      "x": true
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "tbr7d3r",
+              "t": "[0457] C.S.C. GREEN GRASS(NAYAX)",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3268]  SNACK NECTA JAZZ FOOD ",
+                      "x": false
+                    },
+                    {
+                      "t": "[2269]  FRIO VENDO VF 544",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "daw3mxm",
+              "t": "[0692] C.S.C. MARINA 50(NAYAX)",
+              "d": "1,20€\nItaliano\nNo alcohol",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3346] 🍭SNACK NECTA TWIST",
+                      "x": false
+                    }
+                  ]
+                },
+                {
+                  "t": "Checklist",
+                  "x": false,
+                  "items": []
+                },
+                {
+                  "t": "Checklist",
+                  "x": false,
+                  "items": []
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "dvj5yrg",
+              "t": "[0616] C.S.C. RELAX BCN(NAYAX)",
+              "d": "Si tiene configurado el servidor de correos se le hará llegar los datos al usuario. sino deberá proporcionárselo usted. El usuario es relax y la contraseña: T3@p73441",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3312] SNACK VENDO SD8",
+                      "x": false
+                    }
+                  ]
+                },
+                {
+                  "t": "Checklist",
+                  "x": false,
+                  "items": []
+                }
+              ],
+              "cv": "",
+              "done": true
+            }
+          ]
+        },
+        {
+          "id": "glc57al",
+          "t": "VIERNES",
+          "min": false,
+          "cards": [
+            {
+              "id": "dhtxlz4",
+              "t": "[0681] C.S.C. AREA 420 BCN (NAYAX)",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3343]  🍭SNACK NECTA TWIST ETL",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "j5a49nv",
+              "t": "[0623] C.S.C. CORNER MEDICAL (NAYAX)",
+              "d": "ATENCIÓN: LLEVsA AQUARIUS NARANJA",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3335] SNACK NECTA TWIST",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "ttgewjn",
+              "t": "[0333] C.S.C. G-13 (NAYAX)",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3250]  SNACK VENDO G-SNACK BS8",
+                      "x": false
+                    },
+                    {
+                      "t": "[2275]  FRIO VENDO SVE 609",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "e30uz3m",
+              "t": "[0444] C.S.C. SMOKE SIGNALS ***(HACER LA LECTURA DEX CON LA PUERTA ABIERTA) ***",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3204]  SNACK FRIO BUDGET",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "64442gx",
+              "t": "[0479] C.S.C. DRAGON CLUB (EL AMANTE DE MARÍA)(NAYAX)",
+              "d": "#Heinieken",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3259]  SNACK NECTA JAZZ FOOD ",
+                      "x": false
+                    },
+                    {
+                      "t": "[2334]  FRIO VENDO SVE 550",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "7j2u50v",
+              "t": "[0420] C.S.C. GREEN PLANET CLUB(NAYAX)",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[2363]  REF VENDO SD47",
+                      "x": false
+                    },
+                    {
+                      "t": "[3253]  SNACK SANDEN VENDO SDX",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            }
+          ]
+        },
+        {
+          "id": "4fp1tzq",
+          "t": "PARKING CADA 2 SEMANAS",
+          "min": false,
+          "cards": [
+            {
+              "id": "cyyqgur",
+              "t": "[0489] C.S.C. BOIRA (MONSTER)",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[2179]  FRIO VENDO SVE 480-7",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "qc5ujtg",
+              "t": "[0503] C.S.C. LUJO VERDE(NAYAX)",
+              "d": "NO TOCAR\nSi tiene configurado el servidor de correos se le hará llegar los datos al usuario. sino deberá proporcionárselo usted. El usuario es lujoverde y la contraseña: T3@p39401",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3298]  SNACK NECTA TWIST",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "1beg2nr",
+              "t": "[0509] C.S.C. CARME 66 (Hacer solo la de Snack)",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3234]  SNACK VENDO G-SNACK BS8",
+                      "x": false
+                    },
+                    {
+                      "t": "[2354]  FRÍO VENDO 542",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "raicneb",
+              "t": "[0690] C.S.C. PLANTA SANTA (NAYAX)",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3337] SNACK NECTA TWIST",
+                      "x": false
+                    }
+                  ]
+                },
+                {
+                  "t": "REVISION NAYAX SNACK",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "CANAL 32 Y 33 PAR 8 o 9",
+                      "x": false
+                    },
+                    {
+                      "t": "canal 40 y 41 par a 4?",
+                      "x": false
+                    },
+                    {
+                      "t": "CANAL 50,51,60,61,72,73,74,75 PAR A 6",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "zn1s41f",
+              "t": "[0509] C.S.C. CARME 66 ***(HACER LA LECTURA DEX CON LA PUERTA ABIERTA) ***",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3234]  SNACK VENDO G-SNACK BS8",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "lu1lwu1",
+              "t": "[0703] C.S.C. THE CORNER",
+              "d": "Calle de Aribau, 71, Eixample, 08036 Barcelona\n[https://maps.app.goo.gl/WxLWxPac7tevHd2q7](https://maps.app.goo.gl/WxLWxPac7tevHd2q7 \"smartCard-inline\")",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3353] SNACK NECTA TWIST",
+                      "x": false
+                    },
+                    {
+                      "t": "[3239]  SNACK NECTA JAZZ",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "8jpqgsr",
+              "t": "[0697] C.S.C. TERPY(NAYAX)",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3350] SNACK NECTA MELODÍA IZQ",
+                      "x": false
+                    },
+                    {
+                      "t": "[3351] SNACK NECTA MELODÍA DER",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            }
+          ]
+        },
+        {
+          "id": "qlzjjde",
+          "t": "Gasolinera",
+          "min": false,
+          "cards": [
+            {
+              "id": "oz72f2i",
+              "t": "Gasolina",
+              "d": "",
+              "l": [],
+              "ck": [],
+              "cv": "",
+              "done": false
+            }
+          ]
+        },
+        {
+          "id": "xp73xxk",
+          "t": "LIMPIEZA VEHICULO 3398 MXY",
+          "min": false,
+          "cards": [
+            {
+              "id": "dp9i9mt",
+              "t": "LIMPIEZA SEMANAL EXTERIOR-INTERIOR",
+              "d": "CUANDO SE EJECUTE LA LIMPIEZA SEMANAL ESCRIBIR “LIMPIEZAOK”",
+              "l": [],
+              "ck": [],
+              "cv": "",
+              "done": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "k8d5vsk",
+      "name": "JESUS",
+      "fav": false,
+      "bg": "",
+      "cols": [
+        {
+          "id": "pfcuajz",
+          "t": "LUNES",
+          "min": false,
+          "cards": [
+            {
+              "id": "w2jpt52",
+              "t": "[0669] C.S.C. MARY'S(NAYAX ) CAFE ILLY",
+              "d": "No poner rústicos de lomo si no tro sabores  ",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[2255] REF VENDO 682",
+                      "x": false
+                    },
+                    {
+                      "t": "[3230] SNACK VENDO SDX",
+                      "x": false
+                    },
+                    {
+                      "t": "[1086] CAFÉ NECTA KIKKO",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "4dhn9q8",
+              "t": "[0650] C.S.C. PLANET HOSPITALET (NAYAX)",
+              "d": "`Si tiene configurado el servidor de correos se le hará llegar los datos al usuario. sino deberá proporcionárselo usted. El usuario es planethospi y la contraseña: T3@p49346`",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3235]  SNACK VENDO SDX",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "q43bet8",
+              "t": "[0444] C.S.C. SMOKE SIGNALS ***(HACER LECTURA CON PUERTA ABIERTA) ***",
+              "d": "BAJOS\nTEL DEL PRESIDENTE: 6850108538ñ",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3204]  SNACK FRIO BUDGET",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "1i89sxk",
+              "t": "[0425] C.S.C. ICC (ICE CANNAM CLUB)(NAYAX)",
+              "d": "NO TOCAR\n\nSi tiene configurado el servidor de correos se le hará llegar los datos al usuario. sino deberá proporcionárselo usted. El usuario es icc y la contraseña: T3#p4WkMm#Ro",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[2365]  FRIO VENDO S-C47",
+                      "x": false
+                    },
+                    {
+                      "t": "[3309]  SNACK VENDO SDX",
+                      "x": false
+                    },
+                    {
+                      "t": "[1152]  CAFÉ NECTA CONCERTO",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "qp5xrup",
+              "t": "[0698] DINAMIS(NAYAX)",
+              "d": "\n",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3125]  SNACK NECTA SNAKKY",
+                      "x": false
+                    },
+                    {
+                      "t": "[2002]  AZKOYEN PALMA B (LITRO Y MEDIO)",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            }
+          ]
+        },
+        {
+          "id": "lsh04cy",
+          "t": "MARTES",
+          "min": false,
+          "cards": [
+            {
+              "id": "sx2nr0n",
+              "t": "[0477] C.S.C. SANA MARÍA (101 PREMIUM)(NAYAX)",
+              "d": "#NO PONER ZUMO PAGO. PONER ZUMO YOGA.\n",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3174]  VENDO G SNACK SDX",
+                      "x": false
+                    },
+                    {
+                      "t": "[2355]  FRIO VENDO VF 542",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "0uymirl",
+              "t": "[0544] C.S.C. GREEN OASIS(NAYAX)",
+              "d": "(ESTRELLA GALICIA Y ESTRELLAS)",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[2345] FRIO VENDO 480-7",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "auszctb",
+              "t": "[0342] C.S.C. AGUSTO(NAYAX)",
+              "d": "`Si tiene configurado el servidor de correos se le hará llegar los datos al usuario. sino deberá proporcionárselo usted. El usuario es agusto y la contraseña: T3@p86294`",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[2338]  FRIO VENDO 680-10",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "nbvengv",
+              "t": "[0468] C.S.C. LA POTA VERDA ***(SNACK HACER LA LECTURA CON LA PUERTA ABIERTA)***",
+              "d": "Lleva 2 carriles de sumo de melocoton 🍑",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3122]  SNACK VENDO G-SNACK BS8",
+                      "x": false
+                    },
+                    {
+                      "t": "[2027]  FRIO VENDO VF 544",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "nh67h1s",
+              "t": "[0450] C.S.C. LA CARXOFA",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3193] SNACK SDX",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "anpt5ac",
+              "t": "[0702] C.S.C. NIRVANA 119",
+              "d": "### ATENCIÓN HORARIO 10-22h.\n[Carrer de Barcelona, 119, Local, 08820 El Prat de Llobregat, Barcelona](https://www.google.com/maps/place//data=!4m2!3m1!1s0x12a49edc429e3791:0xe3d4876cf5903cb3?sa=X&ved=1t:8290&ictx=111 \"‌\")",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3292]  SNACK NECTA JAZZ",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "sa6zr27",
+              "t": "[0675] C.S.C. DOE BARCELONA(NAYAX)",
+              "d": "TAG JEFE CONSUMICION DIARIA (3799859040)",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3311] SNACK NECTA TWIST",
+                      "x": false
+                    },
+                    {
+                      "t": "[3341] SNACK NECTA TWIST DISPLAY",
+                      "x": false
+                    },
+                    {
+                      "t": "[2340] REF VENDO 480-7",
+                      "x": false
+                    }
+                  ]
+                },
+                {
+                  "t": "Checklist",
+                  "x": false,
+                  "items": []
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "1kqu1y4",
+              "t": "[0686] POLIESPORTIU CAN PALET (NAYAX)",
+              "d": "AGUA 1500ML 1,80€\nAGUA 500ml 1,20€\nCOCA 1,80€ Y DEMAS CARBÓNICOS Y CERVEZAS\nAQUAR Y NESTEA 1,80€\n\nPATATAS, CHUCHES 1,50€, CHOCOLATE 1,60€ (KINDER BUENO1,80)\nSANDWICHES (2 CANALES 3,00€)\nNOCCO 2,80€ (3 REFERENCIAS)\nRED BULL 2,50€\nBATILLOS 3,00€",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3241]  SNACK VENDO SDX",
+                      "x": false
+                    },
+                    {
+                      "t": "[2011]  REF VENDO 544",
+                      "x": false
+                    },
+                    {
+                      "t": "[2216]  REF VENDO 544 (NESTEA) exterior",
+                      "x": false
+                    },
+                    {
+                      "t": "[2199]  AZKOYEN PALMA B (LITRO Y MEDIO) exterior",
+                      "x": false
+                    },
+                    {
+                      "t": "[1149]  AZKOYEN ZINTRO CAFÉ",
+                      "x": false
+                    }
+                  ]
+                },
+                {
+                  "t": "Checklist",
+                  "x": false,
+                  "items": []
+                }
+              ],
+              "cv": "",
+              "done": true
+            }
+          ]
+        },
+        {
+          "id": "qwryl3z",
+          "t": "MIÉRCOLES",
+          "min": false,
+          "cards": [
+            {
+              "id": "1ypchtr",
+              "t": "[0643] C.S.C. LA CHEESE",
+              "d": "Carrer de la Diputació, 40, 08770 Sant Sadurní d'Anoia, Barcelona, España",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3330] SNACK VENDO BUDGET BS8",
+                      "x": false
+                    },
+                    {
+                      "t": "[2001] REF VENDO 682",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "imo2dlw",
+              "t": "[0657] C.S.C. MASQUEFUM",
+              "d": "#11-13 y 16-21 de lunes a viernes, fin de semana 16 - 21\n# ESTRELLA",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3287]  SNACK NECTA TWIST",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "k490nur",
+              "t": "[XXX] C.S.C. L555",
+              "d": "https://maps.app.goo.gl/wi2SmftYgt1cAnPG8 Horario de 11:00 a 22:00. // Viernes de 12:40 cerrado hasta las 14:00",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3236] SNACK VENDO BUDGET BS8",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "4pbmqjf",
+              "t": "[0693] C.S.C. JUICY(NAYAX)",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[2362] REF S-C47",
+                      "x": false
+                    },
+                    {
+                      "t": "[3329] SNACK SD8",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "s3kx50o",
+              "t": "[0570] C.S.C. NOU VILANNABIS ***(HACER LA LECTURA DEX CON LA PUERTA ABIERTA) ***",
+              "d": "NO ALCOHOL",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3061]  SNACK VENDO 710",
+                      "x": false
+                    },
+                    {
+                      "t": "[2065] FRIO VENDO VF 544",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            }
+          ]
+        },
+        {
+          "id": "hro95cs",
+          "t": "JUEVES",
+          "min": false,
+          "cards": [
+            {
+              "id": "u5q6q50",
+              "t": "[0669] C.S.C. MARY'S(NAYAX)   CAFE ILLY",
+              "d": "No poner rústicos de lomo si no tro sabores  ",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[2255] REF VENDO 682",
+                      "x": false
+                    },
+                    {
+                      "t": "[3230] SNACK VENDO SDX",
+                      "x": false
+                    },
+                    {
+                      "t": "[1086] CAFÉ NECTA KIKKO",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "67mtlfe",
+              "t": "[0406] C.S.C. LA MUNTANYA VERDA ***(SNACK HACER LA LECTURA CON LA PUERTA ABIERTA)***",
+              "d": "\n11-22h Carrer de la Muntanya, 8, 08901 L'Hospitalet de Llobregat, Barcelona, España",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3254]  SNACK VENDO BS8",
+                      "x": false
+                    },
+                    {
+                      "t": "[2098]  FRIO VENDO 544",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "4c9tlun",
+              "t": "[0646] C.S.C. TOP TOP 777(NAYAX)",
+              "d": "NO ALCOHOL NO JAMON\nSolo poner ñaming atún",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3325] SNACK NECTA TWIST",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "tv9hx99",
+              "t": "[0603] C.S.C. TORO VERDE",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[2335] REF VENDO 550",
+                      "x": false
+                    },
+                    {
+                      "t": "[3276] SNACK NECTA  JAZZ",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "4gswm7n",
+              "t": "[0648] C.S.C. VILA VERDE",
+              "d": "NADA DE CERVEZA NI JAMÓN",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3306]  SNACK NECTA TWIST",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "cu4pmfh",
+              "t": "[0602] C.S.C. GREEN LEAF CLUB GAVÀ",
+              "d": "C/ de F. Pi i Margall, 40, 08850 Gavà, Barcelona, España\n\n‌\n\nA partir de las 11H",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3283] SNACK NECTA JAZZ",
+                      "x": false
+                    },
+                    {
+                      "t": "[2346] REF SANDENVENDO 217/6",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "u1wjrhg",
+              "t": "[0554] C.S.C. ENDOCANNA",
+              "d": "# [https://maps.app.goo.gl/WyssywNRsZPpuWFe6](https://maps.app.goo.gl/WyssywNRsZPpuWFe6 \"smartCard-inline\")",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[2315]  FRIO VENDO 550",
+                      "x": false
+                    },
+                    {
+                      "t": "[2291]  FRIO VENDO 480/7",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            }
+          ]
+        },
+        {
+          "id": "ejlqck2",
+          "t": "VIERNES",
+          "min": false,
+          "cards": [
+            {
+              "id": "sa4jx5q",
+              "t": "[0424] C.S.C. VILAHERBA(NAYAX) ***(SNACK HACER LA LECTURA NAYAX CON LA PUERTA ABIERTA)***",
+              "d": "#",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3248]  SNACK VENDO BS8 BUDGET",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "sggmyoy",
+              "t": "[0650] C.S.C. PLANET HOSPITALET LLEVAR SÁNDWICH Y BOCATAS(NAYAX)",
+              "d": "`Si tiene configurado el servidor de correos se le hará llegar los datos al usuario. sino deberá proporcionárselo usted. El usuario es planethospi y la contraseña: T3@p49346`",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3235]  SNACK VENDO SDX",
+                      "x": false
+                    }
+                  ]
+                },
+                {
+                  "t": "REVISION NAYAX SNACK",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "CANAL 11 PAR A 6?",
+                      "x": false
+                    },
+                    {
+                      "t": "CANAL 46 CAMBIAR A FLASH",
+                      "x": false
+                    },
+                    {
+                      "t": "CANAL 62 BAJAR PAR",
+                      "x": false
+                    },
+                    {
+                      "t": "CANAL 64 PAR A 4?",
+                      "x": false
+                    },
+                    {
+                      "t": "CANAL 66 SIN DEFINIR",
+                      "x": false
+                    },
+                    {
+                      "t": "CANAL 67 PAR A 3?",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "v4uocrz",
+              "t": "[0542] C.S.C. LA COVA NOVA(NAYAX)",
+              "d": "NO TOCAR\nSi tiene configurado el servidor de correos se le hará llegar los datos al usuario. sino deberá proporcionárselo usted. El usuario es covanova y la contraseña: T3@p10419",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[2016] FRIO VENDO VF 544",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "xdetxm0",
+              "t": "[0613] C.S.C. SHIVA SANT CUGAT [ABREN A LAS 16h",
+              "d": "NO TOCAR\nSi tiene configurado el servidor de correos se le hará llegar los datos al usuario. sino deberá proporcionárselo usted. El usuario es shiva y la contraseña: T3#pUaQ#ya7v\n",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[2295] FRÍO VENDO 680-10",
+                      "x": false
+                    },
+                    {
+                      "t": "[3146] SNACK VENDO SDX",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            }
+          ]
+        },
+        {
+          "id": "iey66w0",
+          "t": "SABADOS",
+          "min": false,
+          "cards": [
+            {
+              "id": "ybx1hwz",
+              "t": "raco de cinca la maquinista",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3296]  SNACK NECTA TWIST",
+                      "x": false
+                    },
+                    {
+                      "t": "[3211]  SNACK NECTA JAZZ",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            }
+          ]
+        },
+        {
+          "id": "ux5mv8p",
+          "t": "PARKING 2 SEMANAS",
+          "min": false,
+          "cards": [
+            {
+              "id": "bsgtybd",
+              "t": "Por favor, verifiquen los lateros durante el proceso de carga y aseguren el ajuste según el 'par' establecido en la aplicación. Esta medida busca optimizar el stock y disminuir la carga de productos de baja rotación.",
+              "d": "",
+              "l": [],
+              "ck": [],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "gda5kfh",
+              "t": "[0647] C.S.C. TÍO JUANITO (NAYAX)",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[2091] REF VENDO 544",
+                      "x": false
+                    },
+                    {
+                      "t": "[3210] SNACK NECTA SKKAKY",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "j8tqns7",
+              "t": "[0536] C.S.C. GREEN ICE(NAYAX)",
+              "d": "Pg. del Carme, 8, 08800 Vilanova i la Geltrú",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3278]  SNACK NECTA JAZZ FOOD",
+                      "x": false
+                    },
+                    {
+                      "t": "[2087]  FRIO VENDO SVE 480-7",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "1syg4xr",
+              "t": "[0648] C.S.C. VILA VERDE",
+              "d": "NADA DE CERVEZA NI JAMÓN",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3306]  SNACK NECTA TWIST",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "g3a3552",
+              "t": "[0536] C.S.C. GREEN ICE(NAYAX)",
+              "d": "Pg. del Carme, 8, 08800 Vilanova i la Geltrú",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3278]  SNACK NECTA JAZZ FOOD",
+                      "x": false
+                    },
+                    {
+                      "t": "[2087]  FRIO VENDO SVE 480-7",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "rurcpfy",
+              "t": "[0536] C.S.C. GREEN ICE(NAYAX)",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3278]  SNACK NECTA JAZZ FOOD",
+                      "x": false
+                    },
+                    {
+                      "t": "[2087]  FRIO VENDO SVE 480-7",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "dlqsft6",
+              "t": "[0616] C.S.C. RELAX BCN(NAYAX)",
+              "d": "Si tiene configurado el servidor de correos se le hará llegar los datos al usuario. sino deberá proporcionárselo usted. El usuario es relax y la contraseña: T3@p73441",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3312] SNACK VENDO SD8",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "as4jbfo",
+              "t": "[0643] C.S.C. LA CHEESE",
+              "d": "Carrer de la Diputació, 40, 08770 Sant Sadurní d'Anoia, Barcelona, España",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3330] SNACK VENDO BUDGET BS8",
+                      "x": false
+                    },
+                    {
+                      "t": "[2001] REF VENDO 682",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "gegbr2j",
+              "t": "NOU VILANNABIS SNACK (TENER EN CUENTA DESCONECTAR EL CABLE NAYAX PARA PODER ABRIR LA PUERTA Y, AL ACABAR, VOLVER A CONECTAR.",
+              "d": "",
+              "l": [],
+              "ck": [],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "lslplqo",
+              "t": "[0612] C.S.C. CANNAE",
+              "d": "#Estrella Galicia y Estrella Damm\nSi tiene configurado el servidor de correos se le hará llegar los datos al usuario. sino deberá proporcionárselo usted. El usuario es cannae y la contraseña: T3@pD6l#en'm",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3310] SNACK NECTA TWIST",
+                      "x": false
+                    },
+                    {
+                      "t": "[2075] REF VENDO 480/7",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "pp75ux1",
+              "t": "[0644] C.S.C. GAIA 427 (ANT APOLLO 27)",
+              "d": "IMPORTANTE LLENAR ESTRELLA GALICIA. \n\nSi tiene configurado el servidor de correos se le hará llegar los datos al usuario. sino deberá proporcionárselo usted. El usuario es apollo27 y la contraseña: T3@p66486",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3345] SNACK NECTA TWIST",
+                      "x": false
+                    },
+                    {
+                      "t": "[1151] CAFÉ AZKOYEN VITRO S1",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "m7u0ofn",
+              "t": "[0702] C.S.C. NIRVANA 119",
+              "d": "### ATENCIÓN HORARIO 10-22h.\n[Carrer de Barcelona, 119, Local, 08820 El Prat de Llobregat, Barcelona](https://www.google.com/maps/place//data=!4m2!3m1!1s0x12a49edc429e3791:0xe3d4876cf5903cb3?sa=X&ved=1t:8290&ictx=111 \"‌\")",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3292]  SNACK NECTA JAZZ",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "olvxmph",
+              "t": "[0675] C.S.C. DOE BARCELONA(NAYAX)",
+              "d": "TAG JEFE CONSUMICION DIARIA (3799859040)",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3311] SNACK NECTA TWIST",
+                      "x": false
+                    },
+                    {
+                      "t": "[3341] SNACK NECTA TWIST DISPLAY",
+                      "x": false
+                    },
+                    {
+                      "t": "[2340] REF VENDO 480-7",
+                      "x": false
+                    }
+                  ]
+                },
+                {
+                  "t": "REVISION NAYAX SNACK DISPLAY",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "CANAL 50, 51, 52 PAR A 5",
+                      "x": false
+                    },
+                    {
+                      "t": "CANAL 53,54 Y 55 PAR A 6?",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "hyv4een",
+              "t": "[0669] C.S.C. MARY'S(NAYAX)   CAFE ILLY",
+              "d": "No poner rústicos de lomo si no tro sabores  ",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[2255] REF VENDO 682",
+                      "x": false
+                    },
+                    {
+                      "t": "[3230] SNACK VENDO SDX",
+                      "x": false
+                    },
+                    {
+                      "t": "[1086] CAFÉ NECTA KIKKO",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "1ie7hcb",
+              "t": "[0468] C.S.C. LA POTA VERDA ***(SNACK HACER LA LECTURA CON LA PUERTA ABIERTA)***",
+              "d": "Lleva 2 carriles de sumo de melocoton 🍑",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3122]  SNACK VENDO G-SNACK BS8",
+                      "x": false
+                    },
+                    {
+                      "t": "[2027]  FRIO VENDO VF 544",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "qsxbm9j",
+              "t": "[0692] C.S.C. MARINA 50 (NAYAX)",
+              "d": "1,20€\nItaliano\nNo alcohol\nLa nevera llevarla a fly",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[3346] 🍭SNACK NECTA TWIST",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "gp9v927",
+              "t": "[0544] C.S.C. GREEN OASIS",
+              "d": "(ESTRELLA GALICIA Y ESTRELLAS)",
+              "l": [],
+              "ck": [
+                {
+                  "t": "MÁQUINAS EN CLIENTE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "[2345] FRIO VENDO 480-7",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": false
+            }
+          ]
+        },
+        {
+          "id": "nu9yfz0",
+          "t": "TABLÓN DE ANUNCIOS",
+          "min": false,
+          "cards": [
+            {
+              "id": "og1wvz4",
+              "t": "GASOLINERA BENZOIL",
+              "d": "INDICAR KILÓMETROS E IMPORTE",
+              "l": [],
+              "ck": [
+                {
+                  "t": "Checklist",
+                  "x": false,
+                  "items": []
+                },
+                {
+                  "t": "Checklist",
+                  "x": false,
+                  "items": []
+                }
+              ],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "7brne7v",
+              "t": "COMISIÓN. CUANDO EL CLIENTE RECLAMA LA COMISIÓN AUTOMÁTICAMENTE HACER LAS FOTOS DEL \"SALES\" DE CADA MÁQUINA Y ENVIÁRMELA. ANOTAD TAMBIÉN EN EL CHAT DE LA TARJETA LA PALABRA COMISIÓN.",
+              "d": "",
+              "l": [],
+              "ck": [],
+              "cv": "",
+              "done": true
+            },
+            {
+              "id": "euhjnvh",
+              "t": "VISITA REPETICIÓN",
+              "d": "EN LA VISITA REPOSICIÓN NO RECAUDA. SE REPONE CON MÁS ATENCIÓN LOS PRODUCTOS PRINCIPALES PERO EL RESTO DE PRODUCTOS NO HAN DE ROMPER STOCK PARA LA PRÓXIMA VISITA. SI ES NECESARIO SE PONE CAMBIO. NO SE COGE CONTADORES.",
+              "l": [],
+              "ck": [],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "qw4b3s9",
+              "t": "CLIENTES CADA 2 SEMANAS",
+              "d": "SE VISITA SEMANA SÍ Y SEMANA NO.",
+              "l": [],
+              "ck": [],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "aa4ocqz",
+              "t": "DESCARGA APP ATENTO",
+              "d": "Hemos de instalar esta App en nuestro móvil para capturar datos de las máquinas que tienen TPV.\nLas claves de acceso son las siguientes.\nUsuario:Miguel\nContraseña:8482\nAdjunto encontrarás un vídeo que explica cómo hacer la captura de datos.",
+              "l": [],
+              "ck": [],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "42l5us6",
+              "t": "TÉRMINOS Y CONDICIONES CONFIDENCIALES DE USO",
+              "d": "El uso de este tablero conlleva la aceptación de los siguientes puntos.\n1) La información contenida en este tablero y sus archivos adjuntos van dirigidos exclusivamente a los usuarios del presente tablero y es propiedad exclusivamente de C.S.C. Unattended Green Services S.L.U.\n2) Toda la información cedida en dicho tablero reviste de carácter confidencial y está sometida a secreto profesional.\n3) Los datos proporcionados se conservarán mientras se mantenga la relación comercial/laboral y queda terminantemente prohibido la cesión de los datos a terceros durante o después de dicha relación.\n4) La violación de dicha normativa interna respecto a la información confidencial y el secreto empresarial conlleva una violación que reviste daños y perjuicios empresariales.",
+              "l": [],
+              "ck": [],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "hqrpjig",
+              "t": "ORDEN DE EJECUCIÓN EN LA REPOSICIÓN: INCIDENCIAS>CAMBIO>RECAUDAR>TOMAR CONTADORES/CAPTURA>REPONER>LIMPIAR",
+              "d": "",
+              "l": [],
+              "ck": [],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "vnfi8om",
+              "t": "LAS HUCHAS DE LOS BILLETEROS NUNCA SE EXTRAEN. SE RECAUDAN POR LA VENTANILLA.",
+              "d": "",
+              "l": [],
+              "ck": [],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "ujavp9q",
+              "t": "*ANOTAD CADA DÍA LAS BOLSAS QUE ENTREGÁIS A ISAAC*",
+              "d": "",
+              "l": [],
+              "ck": [],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "mwjmpoa",
+              "t": "LISTADO DE PRECIOS GENERAL #CSC#",
+              "d": "#Una vez actualizado los precios indicar en comentarios la palabra \"PRICE\" en el comentario de la tarjeta del cliente. ",
+              "l": [],
+              "ck": [
+                {
+                  "t": "LISTADO DE PRECIOS GENERAL CSC",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "Café frío 1,50€",
+                      "x": false
+                    },
+                    {
+                      "t": "Zumo PAGO 1,50€",
+                      "x": false
+                    },
+                    {
+                      "t": "Sant Pellegrino 1,40€",
+                      "x": false
+                    },
+                    {
+                      "t": "Kinder bueno, MIkado, Bounty 1,40€",
+                      "x": false
+                    },
+                    {
+                      "t": "Kit, kat, twix, Snikkers 1,30€",
+                      "x": false
+                    },
+                    {
+                      "t": "Bisanta 1,30€",
+                      "x": false
+                    },
+                    {
+                      "t": "Bifrutas 1,40€",
+                      "x": false
+                    },
+                    {
+                      "t": "Chocobom 1.40€",
+                      "x": false
+                    },
+                    {
+                      "t": "Belsi 1,30€",
+                      "x": false
+                    },
+                    {
+                      "t": "Chuches 1,30€",
+                      "x": false
+                    },
+                    {
+                      "t": "Patatas 1,30€",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": false
+            }
+          ]
+        },
+        {
+          "id": "6akqv01",
+          "t": "LIMPEZA VEHICULO 9511 MZZ",
+          "min": false,
+          "cards": [
+            {
+              "id": "oweryhf",
+              "t": "LIMPIEZA SEMANAL EXTERIOR-INTERIOR",
+              "d": "CUANDO SE EJECUTE LA LIMPIEZA SEMANAL ESCRIBIR “LIMPIEZAOK”",
+              "l": [],
+              "ck": [],
+              "cv": "",
+              "done": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11rawiq",
+      "name": "WILSON",
+      "fav": false,
+      "bg": "",
+      "cols": [
+        {
+          "id": "lcaye28",
+          "t": "FURGONETAS",
+          "min": false,
+          "cards": [
+            {
+              "id": "gff79z7",
+              "t": "ECKES GRANINI (PAGO)",
+              "d": "#SE HA DE ENVIAR A TRAVÉS DE LA PLANTILLA DE PEDIDO#\nMENSUALMENTE SE HA DE ENVIAR LA PLANTILLA DE ABONO DE LOS ZUMOS VENDIDOS EN MARKET",
+              "l": [],
+              "ck": [
+                {
+                  "t": "CONTACTO",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "toni.marcos@eckes-granini.com",
+                      "x": false
+                    },
+                    {
+                      "t": "639215473",
+                      "x": false
+                    }
+                  ]
+                },
+                {
+                  "t": "PRODUCTOS",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "Zumo Pago 200cl Mango/Manzana/Fresa/Plátano/Pera/Tomate",
+                      "x": false
+                    },
+                    {
+                      "t": "Zumo Pago 200cl Ace X 24",
+                      "x": false
+                    },
+                    {
+                      "t": "Zumo Pago 200cl Naranja X 24",
+                      "x": false
+                    },
+                    {
+                      "t": "Zumo Pago 200cl Piña X 24",
+                      "x": false
+                    },
+                    {
+                      "t": "Zumo Pago 200cl Melocotón X 24",
+                      "x": false
+                    },
+                    {
+                      "t": "Zumo Pago 200cl Mango X 12",
+                      "x": false
+                    },
+                    {
+                      "t": "Zumo Pago 200cl Manzana X 12",
+                      "x": false
+                    },
+                    {
+                      "t": "Zumo Pago 200cl Fresa X 12",
+                      "x": false
+                    },
+                    {
+                      "t": "Zumo Pago 200cl Plátano X 12",
+                      "x": false
+                    },
+                    {
+                      "t": "Zumo Pago 200cl Pera x 12",
+                      "x": false
+                    },
+                    {
+                      "t": "Zumo Pago 200cl Tomate x 12",
+                      "x": false
+                    }
+                  ]
+                },
+                {
+                  "t": "TIEMPO DE ENTREGA DESDE QUE SE HACE EL PEDIDO/DÍA DE REPARTO",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "72/96h",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "67q2l39",
+              "t": "REVISAR KM DE LAS FURGONETAS Y PEDIR HORA SI ES NECESARIO 7317 MFB 82808.20 KM(106000)\n3004 MYB 18258.40 KM\n3398 MXY 17854.70 KM(50000)\n9604 LYW 83640.10 KM(113000)\n2157 MDP 77986.80KM(86000)\n9511 MZZ 15137.00KM(50000)\n4386 KHY 211065 KM",
+              "d": "",
+              "l": [],
+              "ck": [],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "acfp7pg",
+              "t": "RENTING",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "ALD AUTOMOTIVE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "https://online.ald-automotive.es/myald/default.aspx",
+                      "x": false
+                    },
+                    {
+                      "t": "IF10059609",
+                      "x": false
+                    },
+                    {
+                      "t": "Joisenam1914",
+                      "x": false
+                    },
+                    {
+                      "t": "CONTACTO: 913 336 717",
+                      "x": false
+                    }
+                  ]
+                },
+                {
+                  "t": "ALPHABET ESPAÑA FLEET MANAGEMENT, SAU",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "https://www.oficinavirtual.alphabet.es/Home/Index",
+                      "x": false
+                    },
+                    {
+                      "t": "91484198",
+                      "x": false
+                    },
+                    {
+                      "t": "CSCservimas1914##",
+                      "x": false
+                    },
+                    {
+                      "t": "CONTACTO: 900 374 837 crc@alphabet.es",
+                      "x": false
+                    }
+                  ]
+                },
+                {
+                  "t": "LEASE PLAN SERVICIOS, SA",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "https://auth.leaseplan.com/u/login/identifier?state=hKFo2SBIbjhPTk52MTZGNlRKZmN3d3BOUnZCdE44NWVXSmg5aqFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIEFBUWxncnEzcVVXODRXZlUyZmF0Z18wN1FENnRXdm1Ro2NpZNkgSkJkblFiVWpSUkJvMFF1Mncwc0RVSUoyaHh6QkZQRm0",
+                      "x": false
+                    },
+                    {
+                      "t": "josue.masegosa@servimassport.cat",
+                      "x": false
+                    },
+                    {
+                      "t": "Joisenam1914.",
+                      "x": false
+                    },
+                    {
+                      "t": "CONTACTO: 919 195 999 atencioncliente@leaseplan.com",
+                      "x": false
+                    }
+                  ]
+                },
+                {
+                  "t": "ARVAL SERVICE LEASE, SAU",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "https://iam.arval.com/authenticationendpoint/login.do?commonAuthCallerPath=%2Fsamlsso&forceAuth=false&passiveAuth=false&tenantDomain=carbon.super&sessionDataKey=767a8e6d-f8c0-4591-ae02-c0a0dd1573be&relyingParty=https%3A%2F%2Fmyarval.arval.com&type=samlsso&sp=arval_sp_MyArvalWeb&isSaaSApp=false&authenticators=CustomBasicAuthenticator:LOCAL",
+                      "x": false
+                    },
+                    {
+                      "t": "admin@servimassport.cat",
+                      "x": false
+                    },
+                    {
+                      "t": "Joisenam1914",
+                      "x": false
+                    },
+                    {
+                      "t": "CONTACTO: 919 100 770 clientepartners@arval.es",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "bymbvyr",
+              "t": "2157 MDP (TEC)",
+              "d": "ALD AUTOMOTIVE (FORD RENTING)\n\n913 336 717",
+              "l": [],
+              "ck": [
+                {
+                  "t": "REVISIÓN",
+                  "x": false,
+                  "items": []
+                },
+                {
+                  "t": "ITV",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "30/01/2025",
+                      "x": false
+                    }
+                  ]
+                },
+                {
+                  "t": "KM",
+                  "x": false,
+                  "items": []
+                }
+              ],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "oc9hlj2",
+              "t": "7317 MFB (MARKET)",
+              "d": "ALD AUTOMOTIVE (FORD RENTING)\n\n913 336 717\n\n",
+              "l": [],
+              "ck": [
+                {
+                  "t": "ITV",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "23/02/2025",
+                      "x": false
+                    }
+                  ]
+                },
+                {
+                  "t": "REVISIÓN",
+                  "x": false,
+                  "items": []
+                },
+                {
+                  "t": "KM",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "28/03/2023 2.122KM",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "4331ryt",
+              "t": "4386 KHY (JOSUÉ)",
+              "d": "FURGO PROPIA SERVIMAS\n\nTALLER: VILA VILA GRANOLLERS [938 490 900](https://www.google.com/search?q=vila+vila+granollers&oq=vila+vila+granollers&aqs=chrome.0.0i355i512j46i175i199i512j0i22i30l3.5480j0j15&sourceid=chrome&ie=UTF-8&bshm=lbsc/1# \"‌\")",
+              "l": [],
+              "ck": [
+                {
+                  "t": "KM",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "28/03/2023 169.866KM",
+                      "x": false
+                    }
+                  ]
+                },
+                {
+                  "t": "ITV",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "02/03/2024",
+                      "x": false
+                    }
+                  ]
+                },
+                {
+                  "t": "Checklist",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "Revisión periódica julio 2023",
+                      "x": false
+                    }
+                  ]
+                },
+                {
+                  "t": "REVISIÓN",
+                  "x": false,
+                  "items": []
+                }
+              ],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "ffzxahe",
+              "t": "3004 MYB (OMAR)",
+              "d": "TELÉFONO DE LA GRÚA ASISTENCIA \n\n919 100 700",
+              "l": [],
+              "ck": [],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "fhbi2nm",
+              "t": "3398MXY (WILSON)",
+              "d": "",
+              "l": [],
+              "ck": [],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "vw9jmld",
+              "t": "9511 MZZ (JESUS)",
+              "d": "",
+              "l": [],
+              "ck": [],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "pve3hk6",
+              "t": "6 agosto 8.00 neumáticos",
+              "d": "",
+              "l": [],
+              "ck": [],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "5tyxezv",
+              "t": "12 agosto 8:00 retovisor y maneta",
+              "d": "",
+              "l": [],
+              "ck": [],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "r0gly4z",
+              "t": "ECKES GRANINI (PAGO)",
+              "d": "#SE HA DE ENVIAR A TRAVÉS DE LA PLANTILLA DE PEDIDO#\nMENSUALMENTE SE HA DE ENVIAR LA PLANTILLA DE ABONO DE LOS ZUMOS VENDIDOS EN MARKET",
+              "l": [],
+              "ck": [
+                {
+                  "t": "CONTACTO",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "toni.marcos@eckes-granini.com",
+                      "x": false
+                    },
+                    {
+                      "t": "639215473",
+                      "x": false
+                    }
+                  ]
+                },
+                {
+                  "t": "PRODUCTOS",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "Zumo Pago 200cl Mango/Manzana/Fresa/Plátano/Pera/Tomate",
+                      "x": false
+                    },
+                    {
+                      "t": "Zumo Pago 200cl Ace X 24",
+                      "x": false
+                    },
+                    {
+                      "t": "Zumo Pago 200cl Naranja X 24",
+                      "x": false
+                    },
+                    {
+                      "t": "Zumo Pago 200cl Piña X 24",
+                      "x": false
+                    },
+                    {
+                      "t": "Zumo Pago 200cl Melocotón X 24",
+                      "x": false
+                    },
+                    {
+                      "t": "Zumo Pago 200cl Mango X 12",
+                      "x": false
+                    },
+                    {
+                      "t": "Zumo Pago 200cl Manzana X 12",
+                      "x": false
+                    },
+                    {
+                      "t": "Zumo Pago 200cl Fresa X 12",
+                      "x": false
+                    },
+                    {
+                      "t": "Zumo Pago 200cl Plátano X 12",
+                      "x": false
+                    },
+                    {
+                      "t": "Zumo Pago 200cl Pera x 12",
+                      "x": true
+                    },
+                    {
+                      "t": "Zumo Pago 200cl Tomate x 12",
+                      "x": true
+                    }
+                  ]
+                },
+                {
+                  "t": "TIEMPO DE ENTREGA DESDE QUE SE HACE EL PEDIDO/DÍA DE REPARTO",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "72/96h",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "uq8c912",
+              "t": "REVISAR KM DE LAS FURGONETAS Y PEDIR HORA SI ES NECESARIO 7317 MFB 82808.20 KM(106000)\n3004 MYB 18258.40 KM\n3398 MXY 17854.70 KM(50000)\n9604 LYW 83640.10 KM(113000)\n2157 MDP 77986.80KM(86000)\n9511 MZZ 15137.00KM(50000)\n4386 KHY 211065 KM",
+              "d": "",
+              "l": [],
+              "ck": [],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "w0vo6wj",
+              "t": "RENTING",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "ALD AUTOMOTIVE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "https://online.ald-automotive.es/myald/default.aspx",
+                      "x": false
+                    },
+                    {
+                      "t": "IF10059609",
+                      "x": false
+                    },
+                    {
+                      "t": "Joisenam1914",
+                      "x": false
+                    },
+                    {
+                      "t": "CONTACTO: 913 336 717",
+                      "x": false
+                    }
+                  ]
+                },
+                {
+                  "t": "ALPHABET ESPAÑA FLEET MANAGEMENT, SAU",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "https://www.oficinavirtual.alphabet.es/Home/Index",
+                      "x": false
+                    },
+                    {
+                      "t": "91484198",
+                      "x": false
+                    },
+                    {
+                      "t": "CSCservimas1914##",
+                      "x": false
+                    },
+                    {
+                      "t": "CONTACTO: 900 374 837 crc@alphabet.es",
+                      "x": false
+                    }
+                  ]
+                },
+                {
+                  "t": "LEASE PLAN SERVICIOS, SA",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "https://auth.leaseplan.com/u/login/identifier?state=hKFo2SBIbjhPTk52MTZGNlRKZmN3d3BOUnZCdE44NWVXSmg5aqFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIEFBUWxncnEzcVVXODRXZlUyZmF0Z18wN1FENnRXdm1Ro2NpZNkgSkJkblFiVWpSUkJvMFF1Mncwc0RVSUoyaHh6QkZQRm0",
+                      "x": false
+                    },
+                    {
+                      "t": "josue.masegosa@servimassport.cat",
+                      "x": false
+                    },
+                    {
+                      "t": "Joisenam1914.",
+                      "x": false
+                    },
+                    {
+                      "t": "CONTACTO: 919 195 999 atencioncliente@leaseplan.com",
+                      "x": false
+                    }
+                  ]
+                },
+                {
+                  "t": "ARVAL SERVICE LEASE, SAU",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "https://iam.arval.com/authenticationendpoint/login.do?commonAuthCallerPath=%2Fsamlsso&forceAuth=false&passiveAuth=false&tenantDomain=carbon.super&sessionDataKey=767a8e6d-f8c0-4591-ae02-c0a0dd1573be&relyingParty=https%3A%2F%2Fmyarval.arval.com&type=samlsso&sp=arval_sp_MyArvalWeb&isSaaSApp=false&authenticators=CustomBasicAuthenticator:LOCAL",
+                      "x": false
+                    },
+                    {
+                      "t": "admin@servimassport.cat",
+                      "x": false
+                    },
+                    {
+                      "t": "Joisenam1914",
+                      "x": false
+                    },
+                    {
+                      "t": "CONTACTO: 919 100 770 clientepartners@arval.es",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "qjpc30v",
+              "t": "2157 MDP (TEC)",
+              "d": "ALD AUTOMOTIVE (FORD RENTING)\n\n913 336 717",
+              "l": [],
+              "ck": [
+                {
+                  "t": "REVISIÓN",
+                  "x": false,
+                  "items": []
+                },
+                {
+                  "t": "ITV",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "30/01/2025",
+                      "x": false
+                    }
+                  ]
+                },
+                {
+                  "t": "KM",
+                  "x": false,
+                  "items": []
+                }
+              ],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "5utvgvk",
+              "t": "7317 MFB (MARKET)",
+              "d": "ALD AUTOMOTIVE (FORD RENTING)\n\n913 336 717\n\n",
+              "l": [],
+              "ck": [
+                {
+                  "t": "ITV",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "23/02/2025",
+                      "x": false
+                    }
+                  ]
+                },
+                {
+                  "t": "REVISIÓN",
+                  "x": false,
+                  "items": []
+                },
+                {
+                  "t": "KM",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "28/03/2023 2.122KM",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "s2lga4w",
+              "t": "4386 KHY (JOSUÉ)",
+              "d": "FURGO PROPIA SERVIMAS\n\nTALLER: VILA VILA GRANOLLERS [938 490 900](https://www.google.com/search?q=vila+vila+granollers&oq=vila+vila+granollers&aqs=chrome.0.0i355i512j46i175i199i512j0i22i30l3.5480j0j15&sourceid=chrome&ie=UTF-8&bshm=lbsc/1# \"‌\")",
+              "l": [],
+              "ck": [
+                {
+                  "t": "KM",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "28/03/2023 169.866KM",
+                      "x": false
+                    }
+                  ]
+                },
+                {
+                  "t": "ITV",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "02/03/2024",
+                      "x": false
+                    }
+                  ]
+                },
+                {
+                  "t": "Checklist",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "Revisión periódica julio 2023",
+                      "x": false
+                    }
+                  ]
+                },
+                {
+                  "t": "REVISIÓN",
+                  "x": false,
+                  "items": []
+                }
+              ],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "kmteoz6",
+              "t": "3004 MYB (OMAR)",
+              "d": "TELÉFONO DE LA GRÚA ASISTENCIA \n\n919 100 700",
+              "l": [],
+              "ck": [],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "9qei083",
+              "t": "3398MXY (WILSON)",
+              "d": "",
+              "l": [],
+              "ck": [],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "1o93g10",
+              "t": "9511 MZZ (JESUS)",
+              "d": "",
+              "l": [],
+              "ck": [],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "t2yqvmy",
+              "t": "6 agosto 8.00 neumáticos",
+              "d": "",
+              "l": [],
+              "ck": [],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "tztymu2",
+              "t": "12 agosto 8:00 retovisor y maneta",
+              "d": "",
+              "l": [],
+              "ck": [],
+              "cv": "",
+              "done": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

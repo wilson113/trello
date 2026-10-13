@@ -1,0 +1,36 @@
+{
+  "cur": "ajwyllw",
+  "boards": [
+    {
+      "id": "ajwyllw",
+      "name": "Mi tablero",
+      "cols": [
+        {
+          "id": "38ptl8g",
+          "t": "Por hacer",
+          "cards": [
+            {
+              "id": "e9q9atf",
+              "t": "Haz clic en esta tarjeta para abrirla",
+              "l": [
+                "b",
+                "g"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ebn4z6h",
+          "t": "En curso",
+          "cards": []
+        },
+        {
+          "id": "ypkra25",
+          "t": "Hecho",
+          "cards": []
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

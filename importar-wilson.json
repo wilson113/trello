@@ -1,0 +1,713 @@
+{
+  "cur": "11rawiq",
+  "boards": [
+    {
+      "id": "11rawiq",
+      "name": "WILSON",
+      "fav": false,
+      "bg": "",
+      "cols": [
+        {
+          "id": "lcaye28",
+          "t": "FURGONETAS",
+          "min": false,
+          "cards": [
+            {
+              "id": "gff79z7",
+              "t": "ECKES GRANINI (PAGO)",
+              "d": "#SE HA DE ENVIAR A TRAVÉS DE LA PLANTILLA DE PEDIDO#\nMENSUALMENTE SE HA DE ENVIAR LA PLANTILLA DE ABONO DE LOS ZUMOS VENDIDOS EN MARKET",
+              "l": [],
+              "ck": [
+                {
+                  "t": "CONTACTO",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "toni.marcos@eckes-granini.com",
+                      "x": false
+                    },
+                    {
+                      "t": "639215473",
+                      "x": false
+                    }
+                  ]
+                },
+                {
+                  "t": "PRODUCTOS",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "Zumo Pago 200cl Mango/Manzana/Fresa/Plátano/Pera/Tomate",
+                      "x": false
+                    },
+                    {
+                      "t": "Zumo Pago 200cl Ace X 24",
+                      "x": false
+                    },
+                    {
+                      "t": "Zumo Pago 200cl Naranja X 24",
+                      "x": false
+                    },
+                    {
+                      "t": "Zumo Pago 200cl Piña X 24",
+                      "x": false
+                    },
+                    {
+                      "t": "Zumo Pago 200cl Melocotón X 24",
+                      "x": false
+                    },
+                    {
+                      "t": "Zumo Pago 200cl Mango X 12",
+                      "x": false
+                    },
+                    {
+                      "t": "Zumo Pago 200cl Manzana X 12",
+                      "x": false
+                    },
+                    {
+                      "t": "Zumo Pago 200cl Fresa X 12",
+                      "x": false
+                    },
+                    {
+                      "t": "Zumo Pago 200cl Plátano X 12",
+                      "x": false
+                    },
+                    {
+                      "t": "Zumo Pago 200cl Pera x 12",
+                      "x": false
+                    },
+                    {
+                      "t": "Zumo Pago 200cl Tomate x 12",
+                      "x": false
+                    }
+                  ]
+                },
+                {
+                  "t": "TIEMPO DE ENTREGA DESDE QUE SE HACE EL PEDIDO/DÍA DE REPARTO",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "72/96h",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "67q2l39",
+              "t": "REVISAR KM DE LAS FURGONETAS Y PEDIR HORA SI ES NECESARIO 7317 MFB 82808.20 KM(106000)\n3004 MYB 18258.40 KM\n3398 MXY 17854.70 KM(50000)\n9604 LYW 83640.10 KM(113000)\n2157 MDP 77986.80KM(86000)\n9511 MZZ 15137.00KM(50000)\n4386 KHY 211065 KM",
+              "d": "",
+              "l": [],
+              "ck": [],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "acfp7pg",
+              "t": "RENTING",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "ALD AUTOMOTIVE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "https://online.ald-automotive.es/myald/default.aspx",
+                      "x": false
+                    },
+                    {
+                      "t": "IF10059609",
+                      "x": false
+                    },
+                    {
+                      "t": "Joisenam1914",
+                      "x": false
+                    },
+                    {
+                      "t": "CONTACTO: 913 336 717",
+                      "x": false
+                    }
+                  ]
+                },
+                {
+                  "t": "ALPHABET ESPAÑA FLEET MANAGEMENT, SAU",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "https://www.oficinavirtual.alphabet.es/Home/Index",
+                      "x": false
+                    },
+                    {
+                      "t": "91484198",
+                      "x": false
+                    },
+                    {
+                      "t": "CSCservimas1914##",
+                      "x": false
+                    },
+                    {
+                      "t": "CONTACTO: 900 374 837 crc@alphabet.es",
+                      "x": false
+                    }
+                  ]
+                },
+                {
+                  "t": "LEASE PLAN SERVICIOS, SA",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "https://auth.leaseplan.com/u/login/identifier?state=hKFo2SBIbjhPTk52MTZGNlRKZmN3d3BOUnZCdE44NWVXSmg5aqFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIEFBUWxncnEzcVVXODRXZlUyZmF0Z18wN1FENnRXdm1Ro2NpZNkgSkJkblFiVWpSUkJvMFF1Mncwc0RVSUoyaHh6QkZQRm0",
+                      "x": false
+                    },
+                    {
+                      "t": "josue.masegosa@servimassport.cat",
+                      "x": false
+                    },
+                    {
+                      "t": "Joisenam1914.",
+                      "x": false
+                    },
+                    {
+                      "t": "CONTACTO: 919 195 999 atencioncliente@leaseplan.com",
+                      "x": false
+                    }
+                  ]
+                },
+                {
+                  "t": "ARVAL SERVICE LEASE, SAU",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "https://iam.arval.com/authenticationendpoint/login.do?commonAuthCallerPath=%2Fsamlsso&forceAuth=false&passiveAuth=false&tenantDomain=carbon.super&sessionDataKey=767a8e6d-f8c0-4591-ae02-c0a0dd1573be&relyingParty=https%3A%2F%2Fmyarval.arval.com&type=samlsso&sp=arval_sp_MyArvalWeb&isSaaSApp=false&authenticators=CustomBasicAuthenticator:LOCAL",
+                      "x": false
+                    },
+                    {
+                      "t": "admin@servimassport.cat",
+                      "x": false
+                    },
+                    {
+                      "t": "Joisenam1914",
+                      "x": false
+                    },
+                    {
+                      "t": "CONTACTO: 919 100 770 clientepartners@arval.es",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "bymbvyr",
+              "t": "2157 MDP (TEC)",
+              "d": "ALD AUTOMOTIVE (FORD RENTING)\n\n913 336 717",
+              "l": [],
+              "ck": [
+                {
+                  "t": "REVISIÓN",
+                  "x": false,
+                  "items": []
+                },
+                {
+                  "t": "ITV",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "30/01/2025",
+                      "x": false
+                    }
+                  ]
+                },
+                {
+                  "t": "KM",
+                  "x": false,
+                  "items": []
+                }
+              ],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "oc9hlj2",
+              "t": "7317 MFB (MARKET)",
+              "d": "ALD AUTOMOTIVE (FORD RENTING)\n\n913 336 717\n\n",
+              "l": [],
+              "ck": [
+                {
+                  "t": "ITV",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "23/02/2025",
+                      "x": false
+                    }
+                  ]
+                },
+                {
+                  "t": "REVISIÓN",
+                  "x": false,
+                  "items": []
+                },
+                {
+                  "t": "KM",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "28/03/2023 2.122KM",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "4331ryt",
+              "t": "4386 KHY (JOSUÉ)",
+              "d": "FURGO PROPIA SERVIMAS\n\nTALLER: VILA VILA GRANOLLERS [938 490 900](https://www.google.com/search?q=vila+vila+granollers&oq=vila+vila+granollers&aqs=chrome.0.0i355i512j46i175i199i512j0i22i30l3.5480j0j15&sourceid=chrome&ie=UTF-8&bshm=lbsc/1# \"‌\")",
+              "l": [],
+              "ck": [
+                {
+                  "t": "KM",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "28/03/2023 169.866KM",
+                      "x": false
+                    }
+                  ]
+                },
+                {
+                  "t": "ITV",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "02/03/2024",
+                      "x": false
+                    }
+                  ]
+                },
+                {
+                  "t": "Checklist",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "Revisión periódica julio 2023",
+                      "x": false
+                    }
+                  ]
+                },
+                {
+                  "t": "REVISIÓN",
+                  "x": false,
+                  "items": []
+                }
+              ],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "ffzxahe",
+              "t": "3004 MYB (OMAR)",
+              "d": "TELÉFONO DE LA GRÚA ASISTENCIA \n\n919 100 700",
+              "l": [],
+              "ck": [],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "fhbi2nm",
+              "t": "3398MXY (WILSON)",
+              "d": "",
+              "l": [],
+              "ck": [],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "vw9jmld",
+              "t": "9511 MZZ (JESUS)",
+              "d": "",
+              "l": [],
+              "ck": [],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "pve3hk6",
+              "t": "6 agosto 8.00 neumáticos",
+              "d": "",
+              "l": [],
+              "ck": [],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "5tyxezv",
+              "t": "12 agosto 8:00 retovisor y maneta",
+              "d": "",
+              "l": [],
+              "ck": [],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "r0gly4z",
+              "t": "ECKES GRANINI (PAGO)",
+              "d": "#SE HA DE ENVIAR A TRAVÉS DE LA PLANTILLA DE PEDIDO#\nMENSUALMENTE SE HA DE ENVIAR LA PLANTILLA DE ABONO DE LOS ZUMOS VENDIDOS EN MARKET",
+              "l": [],
+              "ck": [
+                {
+                  "t": "CONTACTO",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "toni.marcos@eckes-granini.com",
+                      "x": false
+                    },
+                    {
+                      "t": "639215473",
+                      "x": false
+                    }
+                  ]
+                },
+                {
+                  "t": "PRODUCTOS",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "Zumo Pago 200cl Mango/Manzana/Fresa/Plátano/Pera/Tomate",
+                      "x": false
+                    },
+                    {
+                      "t": "Zumo Pago 200cl Ace X 24",
+                      "x": false
+                    },
+                    {
+                      "t": "Zumo Pago 200cl Naranja X 24",
+                      "x": false
+                    },
+                    {
+                      "t": "Zumo Pago 200cl Piña X 24",
+                      "x": false
+                    },
+                    {
+                      "t": "Zumo Pago 200cl Melocotón X 24",
+                      "x": false
+                    },
+                    {
+                      "t": "Zumo Pago 200cl Mango X 12",
+                      "x": false
+                    },
+                    {
+                      "t": "Zumo Pago 200cl Manzana X 12",
+                      "x": false
+                    },
+                    {
+                      "t": "Zumo Pago 200cl Fresa X 12",
+                      "x": false
+                    },
+                    {
+                      "t": "Zumo Pago 200cl Plátano X 12",
+                      "x": false
+                    },
+                    {
+                      "t": "Zumo Pago 200cl Pera x 12",
+                      "x": true
+                    },
+                    {
+                      "t": "Zumo Pago 200cl Tomate x 12",
+                      "x": true
+                    }
+                  ]
+                },
+                {
+                  "t": "TIEMPO DE ENTREGA DESDE QUE SE HACE EL PEDIDO/DÍA DE REPARTO",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "72/96h",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "uq8c912",
+              "t": "REVISAR KM DE LAS FURGONETAS Y PEDIR HORA SI ES NECESARIO 7317 MFB 82808.20 KM(106000)\n3004 MYB 18258.40 KM\n3398 MXY 17854.70 KM(50000)\n9604 LYW 83640.10 KM(113000)\n2157 MDP 77986.80KM(86000)\n9511 MZZ 15137.00KM(50000)\n4386 KHY 211065 KM",
+              "d": "",
+              "l": [],
+              "ck": [],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "w0vo6wj",
+              "t": "RENTING",
+              "d": "",
+              "l": [],
+              "ck": [
+                {
+                  "t": "ALD AUTOMOTIVE",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "https://online.ald-automotive.es/myald/default.aspx",
+                      "x": false
+                    },
+                    {
+                      "t": "IF10059609",
+                      "x": false
+                    },
+                    {
+                      "t": "Joisenam1914",
+                      "x": false
+                    },
+                    {
+                      "t": "CONTACTO: 913 336 717",
+                      "x": false
+                    }
+                  ]
+                },
+                {
+                  "t": "ALPHABET ESPAÑA FLEET MANAGEMENT, SAU",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "https://www.oficinavirtual.alphabet.es/Home/Index",
+                      "x": false
+                    },
+                    {
+                      "t": "91484198",
+                      "x": false
+                    },
+                    {
+                      "t": "CSCservimas1914##",
+                      "x": false
+                    },
+                    {
+                      "t": "CONTACTO: 900 374 837 crc@alphabet.es",
+                      "x": false
+                    }
+                  ]
+                },
+                {
+                  "t": "LEASE PLAN SERVICIOS, SA",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "https://auth.leaseplan.com/u/login/identifier?state=hKFo2SBIbjhPTk52MTZGNlRKZmN3d3BOUnZCdE44NWVXSmg5aqFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIEFBUWxncnEzcVVXODRXZlUyZmF0Z18wN1FENnRXdm1Ro2NpZNkgSkJkblFiVWpSUkJvMFF1Mncwc0RVSUoyaHh6QkZQRm0",
+                      "x": false
+                    },
+                    {
+                      "t": "josue.masegosa@servimassport.cat",
+                      "x": false
+                    },
+                    {
+                      "t": "Joisenam1914.",
+                      "x": false
+                    },
+                    {
+                      "t": "CONTACTO: 919 195 999 atencioncliente@leaseplan.com",
+                      "x": false
+                    }
+                  ]
+                },
+                {
+                  "t": "ARVAL SERVICE LEASE, SAU",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "https://iam.arval.com/authenticationendpoint/login.do?commonAuthCallerPath=%2Fsamlsso&forceAuth=false&passiveAuth=false&tenantDomain=carbon.super&sessionDataKey=767a8e6d-f8c0-4591-ae02-c0a0dd1573be&relyingParty=https%3A%2F%2Fmyarval.arval.com&type=samlsso&sp=arval_sp_MyArvalWeb&isSaaSApp=false&authenticators=CustomBasicAuthenticator:LOCAL",
+                      "x": false
+                    },
+                    {
+                      "t": "admin@servimassport.cat",
+                      "x": false
+                    },
+                    {
+                      "t": "Joisenam1914",
+                      "x": false
+                    },
+                    {
+                      "t": "CONTACTO: 919 100 770 clientepartners@arval.es",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "qjpc30v",
+              "t": "2157 MDP (TEC)",
+              "d": "ALD AUTOMOTIVE (FORD RENTING)\n\n913 336 717",
+              "l": [],
+              "ck": [
+                {
+                  "t": "REVISIÓN",
+                  "x": false,
+                  "items": []
+                },
+                {
+                  "t": "ITV",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "30/01/2025",
+                      "x": false
+                    }
+                  ]
+                },
+                {
+                  "t": "KM",
+                  "x": false,
+                  "items": []
+                }
+              ],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "5utvgvk",
+              "t": "7317 MFB (MARKET)",
+              "d": "ALD AUTOMOTIVE (FORD RENTING)\n\n913 336 717\n\n",
+              "l": [],
+              "ck": [
+                {
+                  "t": "ITV",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "23/02/2025",
+                      "x": false
+                    }
+                  ]
+                },
+                {
+                  "t": "REVISIÓN",
+                  "x": false,
+                  "items": []
+                },
+                {
+                  "t": "KM",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "28/03/2023 2.122KM",
+                      "x": false
+                    }
+                  ]
+                }
+              ],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "s2lga4w",
+              "t": "4386 KHY (JOSUÉ)",
+              "d": "FURGO PROPIA SERVIMAS\n\nTALLER: VILA VILA GRANOLLERS [938 490 900](https://www.google.com/search?q=vila+vila+granollers&oq=vila+vila+granollers&aqs=chrome.0.0i355i512j46i175i199i512j0i22i30l3.5480j0j15&sourceid=chrome&ie=UTF-8&bshm=lbsc/1# \"‌\")",
+              "l": [],
+              "ck": [
+                {
+                  "t": "KM",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "28/03/2023 169.866KM",
+                      "x": false
+                    }
+                  ]
+                },
+                {
+                  "t": "ITV",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "02/03/2024",
+                      "x": false
+                    }
+                  ]
+                },
+                {
+                  "t": "Checklist",
+                  "x": false,
+                  "items": [
+                    {
+                      "t": "Revisión periódica julio 2023",
+                      "x": false
+                    }
+                  ]
+                },
+                {
+                  "t": "REVISIÓN",
+                  "x": false,
+                  "items": []
+                }
+              ],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "kmteoz6",
+              "t": "3004 MYB (OMAR)",
+              "d": "TELÉFONO DE LA GRÚA ASISTENCIA \n\n919 100 700",
+              "l": [],
+              "ck": [],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "9qei083",
+              "t": "3398MXY (WILSON)",
+              "d": "",
+              "l": [],
+              "ck": [],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "1o93g10",
+              "t": "9511 MZZ (JESUS)",
+              "d": "",
+              "l": [],
+              "ck": [],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "t2yqvmy",
+              "t": "6 agosto 8.00 neumáticos",
+              "d": "",
+              "l": [],
+              "ck": [],
+              "cv": "",
+              "done": false
+            },
+            {
+              "id": "tztymu2",
+              "t": "12 agosto 8:00 retovisor y maneta",
+              "d": "",
+              "l": [],
+              "ck": [],
+              "cv": "",
+              "done": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "version": 1
+}
